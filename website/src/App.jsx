@@ -4,7 +4,7 @@ import React ,{ useEffect, useRef, useState} from 'react'
 
 import './App.css'
 
-const NUM_OF_STARS = 3000;
+const NUM_OF_STARS = 10000;
 const WIDTH = window.innerWidth
 const HEIGHT = window.innerHeight
 
@@ -26,7 +26,7 @@ const Sphere = (props) => {
  
   return(
     <mesh position={props.position}>
-      <sphereGeometry args={[2, 32, 32]} />
+      <sphereGeometry args={[2, 5,5]} />
       <meshStandardMaterial  color={"white"}/>
     </mesh>
   )
@@ -42,7 +42,7 @@ function SpotLight(){
   })
 
   return(
-    <pointLight intensity = {500} position = {[0,0,1]} ref = {my_light}/>
+    <pointLight decay={1.5} intensity = {1000} position = {[0,0,1]} ref = {my_light}/>
 
   )
 }
@@ -53,7 +53,7 @@ function App() {
     <Canvas orthographic camera={{left : -WIDTH, right: WIDTH, top: HEIGHT, bottom: -HEIGHT}}>
     
       
-      <ambientLight intensity={0}/>
+      <ambientLight intensity={0.05}/>
       <Stars />
 
       <SpotLight />

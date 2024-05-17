@@ -1,32 +1,62 @@
-import { Canvas, useFrame } from "@react-three/fiber"
+import { Canvas, useThree, useFrame } from "@react-three/fiber"
+
+import React ,{ useEffect, useRef, useState} from 'react'
 
 import './App.css'
 
-function Cube(props){
-  useFrame(state, delta){
-    
+const NUM_OF_STARS = 3000;
+const WIDTH = window.innerWidth
+const HEIGHT = window.innerHeight
+
+
+function Stars(){
+  const array = [];
+  for (let i = 0; i < NUM_OF_STARS; i++) {
+    array.push( {id: i, position: [(Math.random() * 2 * WIDTH)-WIDTH, (Math.random() * 2 * HEIGHT)-HEIGHT, 0 ] } )
+
   }
+
+  return(
+    array.map(sphere => <Sphere key = {sphere.id} position = {sphere.position}></Sphere>)
+  )
+}
+
+const Sphere = (props) => {
+ 
+ 
   return(
     <mesh position={props.position}>
-      <boxGeometry args={props.size} />
-      <meshStandardMaterial color={props.color}/>
+      <sphereGeometry args={[2, 32, 32]} />
+      <meshStandardMaterial  color={"white"}/>
     </mesh>
   )
 }
 
+function SpotLight(){
+  const my_light = useRef()
+
+  useFrame((state, delta) =>{
+    my_light.current.position.x = WIDTH*state.pointer.x
+    my_light.current.position.y = HEIGHT*state.pointer.y
+    console.log(state.pointer.x)
+  })
+
+  return(
+    <pointLight intensity = {500} position = {[0,0,1]} ref = {my_light}/>
+
+  )
+}
+
+
 function App() {
   return (
-    <Canvas>
-      <directionalLight position={[0,0,5]}/>
-      <ambientLight intensity={0.7}/>
-      <group>
-        <Cube position = {[1,-1,1]} size = {[1,1,1]} color= {"yellow"} />
-        <Cube position = {[-1,1,1]} size = {[1,1,1]} color= {"red"} />
-        <Cube position = {[-1,-1,1]} size = {[1,1,1]} color= {"blue"} />
-        <Cube position = {[1,1,1]} size = {[1,1,1]} color= {"green"} />
-      </group>
+    <Canvas orthographic camera={{left : -WIDTH, right: WIDTH, top: HEIGHT, bottom: -HEIGHT}}>
+    
       
+      <ambientLight intensity={0}/>
+      <Stars />
 
+      <SpotLight />
     </Canvas>
   )
 }

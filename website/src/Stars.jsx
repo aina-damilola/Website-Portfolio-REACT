@@ -3,8 +3,8 @@ import React ,{ useRef } from 'react'
 import './Stars.css'
 
 const NUM_OF_STARS = 2500;
-const WIDTH = window.innerWidth
-const HEIGHT = window.innerHeight
+let WIDTH = window.innerWidth
+let HEIGHT = window.innerHeight
 
 let mouse_x = 0;
 let mouse_y = 0;
@@ -31,15 +31,6 @@ function Cluster(){
   )
 }
 
-function Background(){
-  return(
-    <mesh position={[0,0,0]}>
-      <boxGeometry args={[WIDTH, HEIGHT, 1]} />
-      <meshStandardMaterial  color={"white"}/>
-    </mesh>
-  )
-}
-
 const Sphere = (props) => {
   const curr_sphere = useRef()
   
@@ -61,7 +52,7 @@ const Sphere = (props) => {
 
   return(
     <mesh ref={curr_sphere} position={props.position}>
-      <sphereGeometry args={[2, 0]} />
+      <sphereGeometry args={[3, 0]} />
       <meshStandardMaterial  color={"white"}/>
     </mesh>
   )
@@ -71,9 +62,9 @@ function PointLight(){
   const my_light = useRef()
 
   useFrame((state, delta) =>{
-    my_light.current.position.x = mouse_x - WIDTH/2
-    my_light.current.position.y = -(mouse_y - HEIGHT/2)
-
+   
+    my_light.current.position.x = mouse_x - WIDTH/2 //+ window.scrollX
+    my_light.current.position.y = -(mouse_y - HEIGHT/2) //- window.scrollY
   })
 
   return(
@@ -85,10 +76,11 @@ function Stars() {
   return (
     <div className="canvas-container">
       <Canvas orthographic camera={{left : -WIDTH/2, right: WIDTH/2, top: HEIGHT/2, bottom: -HEIGHT/2}}>
-        <ambientLight intensity={0.02}/>
+        <ambientLight intensity={0.05}/>
         <Cluster />
         <PointLight />
-        <Background />
+        <color attach="background" args={["#0f0f0f"]} />
+        
       </Canvas>
     </div>
   )

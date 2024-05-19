@@ -8,7 +8,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .hero_section h2, h3, .nav_buttons{
@@ -30,9 +30,11 @@
 }
 
 .hero_section .nav_bar{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
+ 
+    
 }
 
 
@@ -49,7 +51,7 @@
     position: relative;
     overflow: hidden;
     border-bottom: solid;
-
+    cursor: pointer;
 }
 
 .hero_section .nav_buttons:hover{
@@ -61,7 +63,7 @@
 }
 
 .hero_section .nav_buttons::before{
-    background-color: white;
+    background-color: #FFE4C4;
     position: absolute;
     content: "";
     left: 0;

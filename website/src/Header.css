@@ -1,0 +1,24 @@
+.Header{
+    font-weight: 300;
+    font-size: 1vw;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(240, 240, 240);;
+    font-family: "Roboto", sans-serif;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    position: fixed;
+    top: 0vh;
+    width: 100%;
+    
+}
+
+.Header a{
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.Header a:hover{
+    border-bottom: solid;
+    border-width: 0.125vw;
+}

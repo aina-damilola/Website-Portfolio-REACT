@@ -1,0 +1,18 @@
+.Hero_About p{
+    color: #b9b9b9;
+    letter-spacing: 0.1vw;
+    font-weight: 200;
+}
+
+.Hero_About h1{
+    letter-spacing: 0.1vw;
+    font-weight: 400;
+    font-size: 7vw;
+}
+
+.Hero_About .descrip{
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+

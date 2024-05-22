@@ -1,21 +1,13 @@
-import Stars from "./Stars.jsx"
-
-import Hero from "./Hero_section/Hero.jsx"
-
-import About from "./About_section/About.jsx"
-
-
-
 import './App.css'
 
-
+import Header from './Header'
+import Home from './HomePage/Home'
 
 function App() {
   return (
     <>
-      <Stars />
-      <Hero />
-      <About />
+      <Header />
+      <Home />
     </>
   )
 }

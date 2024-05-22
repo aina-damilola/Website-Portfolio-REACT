@@ -1,0 +1,124 @@
+.con-a{
+    margin-top: 5vh;
+    display: flex;
+    background-color: rgb(240, 240, 240);;
+    font-family: "Roboto", sans-serif;
+}
+
+.Hero_About{
+    --initial-width: 45vw;
+    --initial-height: 80vh;
+    --initial-margin-top: 1.5vh;
+    --initial-margin-left: 2.5vw;
+    --initial-bg: #000000;
+}
+
+.Projects{
+    --initial-width: 45vw;
+    --initial-height: 40vh;
+    --initial-margin-top: 1.5vh;
+    --initial-margin-left: 2.5vw;
+    --initial-bg: #677381;
+}
+
+.Contacts{
+    --initial-width: 25vw;
+    --initial-height: 37.5vh;
+    --initial-margin-top: 2.5vh;
+    --initial-margin-left: 2.5vw;
+    --initial-bg: #4b4a54;
+}
+
+.Other_Website{
+    --initial-width: 17.5vw;
+    --initial-height: 37.5vh;
+    --initial-margin-top: 2.5vh;
+    --initial-margin-left: 2.5vw;
+    --initial-bg: #2a272a;
+}
+
+.Panel .text{
+    margin-left: 2vw;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    animation: appear 1s linear 1;
+}
+.Panel{
+    height: var(--initial-height);
+    width: var(--initial-width);
+    margin-top: var(--initial-margin-top);
+    margin-left: var(--initial-margin-left);
+
+    background-color: var(--initial-bg);
+    border-radius: 1vw;
+    transition: 0.5s;
+
+    overflow: hidden;
+
+    animation: grow-in 0.75s ease-in-out 1;
+    box-shadow: 0.25vw 0.25vw 0.5vw 0 rgba(0, 0, 0, 0.5);
+}
+
+.Panel:hover{
+    width: calc(var(--initial-width) + 1vw);
+    height: calc(var(--initial-height) + 1vh);
+    margin-top: calc(var(--initial-margin-top) - 0.5vh);
+    margin-left: calc(var(--initial-margin-left) - 0.5vw);
+
+    cursor: pointer;
+}
+
+.ArrowDown{
+    height: 2vw;
+    width: 2vw;
+    margin-top: 3vh;
+    border: solid;
+    border-radius: 2vw;
+    color: #b9b9b9;
+    padding: 0.25vw;
+    align-self: center;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0.1vw 0.1vw 0.25vw 0 rgba(0, 0, 0, 0.4);
+}
+
+.ArrowDown:hover{
+    animation: bounce 0.35s ease-out infinite alternate;
+}
+
+@keyframes appear {
+    0%{
+        display: none;
+    }
+    75%{
+        display: none;
+    }
+    100%{
+        display: flex;
+    }
+}
+
+@keyframes grow-in{
+    from{
+        width: 0;
+        height: 0;
+        margin-left: calc(var(--initial-margin-left) + var(--initial-width)/2);
+        margin-top: calc(var(--initial-margin-top) + var(--initial-height)/2);
+    }
+    to{
+        width: var(--initial-width);
+        height: var(--initial-height);
+        margin-left: var(--initial-margin-left);
+        margin-top: var(--initial-margin-top);
+    }
+}
+
+@keyframes bounce {
+    from{
+        margin-top: 3vh;
+    }
+    to{
+        margin-top: 2.5vh;
+    }
+}

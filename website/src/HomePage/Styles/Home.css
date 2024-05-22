@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .con-a{
     margin-top: 5vh;
     display: flex;
@@ -54,6 +56,8 @@
     border-radius: 1vw;
     transition: 0.5s;
 
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
 
     animation: grow-in 0.75s ease-in-out 1;

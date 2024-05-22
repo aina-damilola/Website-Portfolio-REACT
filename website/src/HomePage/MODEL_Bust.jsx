@@ -8,19 +8,29 @@ Title: Low Poly Head Bust
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import { useFrame } from "@react-three/fiber"
 
 export function Model(props) {
   const { nodes, materials } = useGLTF('/scene.gltf')
+
+  const modelref = useRef()
+
+
+  useFrame((state, delta) =>{
+    modelref.current.rotation.z = Math.sin(0.25 * state.clock.getElapsedTime())/3
+
+})
+
   return (
-    <group {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
+    <group position={[6,-6,-15]} {...props} dispose={null}>
+      <group ref={modelref} rotation={[-Math.PI / 2, -5*Math.PI/16, 0]}>
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.Plane002_0.geometry}
           material={materials['Scene_-_Root']}
-          position={[0, 0.06, 0.584]}
-          scale={0.255}
+          position={[0, 0, 0]}
+          scale={10}
         />
       </group>
     </group>

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .con-a{
     margin-top: 5vh;
@@ -13,6 +12,7 @@
     --initial-margin-top: 1.5vh;
     --initial-margin-left: 2.5vw;
     --initial-bg: #000000;
+    --animation-delay: 0s;
 }
 
 .Projects{
@@ -20,7 +20,8 @@
     --initial-height: 40vh;
     --initial-margin-top: 1.5vh;
     --initial-margin-left: 2.5vw;
-    --initial-bg: #677381;
+    --initial-bg: #303030;
+    --animation-delay: 0.15s;
 }
 
 .Contacts{
@@ -29,14 +30,16 @@
     --initial-margin-top: 2.5vh;
     --initial-margin-left: 2.5vw;
     --initial-bg: #4b4a54;
+    --animation-delay: 0.3s;
 }
 
-.Other_Website{
+.Highlight{
     --initial-width: 17.5vw;
     --initial-height: 37.5vh;
     --initial-margin-top: 2.5vh;
     --initial-margin-left: 2.5vw;
     --initial-bg: #2a272a;
+    --animation-delay: 0.45s;
 }
 
 .Panel .text{
@@ -44,8 +47,9 @@
     margin-top: 2vw;
     display: flex;
     flex-direction: column;
-    animation: appear 1s linear 1;
+    /* animation: appear 0.25s linear calc(var(--animation-delay) + 0.75s) 1; */
 }
+
 .Panel{
     height: var(--initial-height);
     width: var(--initial-width);
@@ -60,7 +64,7 @@
     flex-direction: column;
     overflow: hidden;
 
-    animation: grow-in 0.75s ease-in-out 1;
+    animation: grow-in 0.75s ease-in-out var(--animation-delay) 1;
     box-shadow: 0.25vw 0.25vw 0.5vw 0 rgba(0, 0, 0, 0.5);
 }
 

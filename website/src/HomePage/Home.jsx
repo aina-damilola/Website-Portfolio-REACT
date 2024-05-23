@@ -3,7 +3,7 @@ import './Styles/Home.css'
 import Hero_About from './Hero-About'
 import Projects from './Projects'
 import Contacts from './Contacts'
-import Other_Website from './Other_Website'
+import Highlight from './Highlight'
 
 function Home(){
     return(
@@ -14,7 +14,7 @@ function Home(){
                     <Projects />
                     <div style={{display: 'flex'}}>
                         <Contacts />
-                        <Other_Website />
+                        <Highlight />
                     </div>
                 </div>
                 

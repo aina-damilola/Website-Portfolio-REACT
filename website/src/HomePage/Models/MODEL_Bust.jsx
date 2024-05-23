@@ -18,8 +18,7 @@ export function Model(props) {
 
   useFrame((state, delta) =>{
     modelref.current.rotation.z = Math.sin(0.25 * state.clock.getElapsedTime())/3
-
-})
+  })
 
   return (
     <group position={[6,-6,-15]} {...props} dispose={null}>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.Highlight .text{
+    z-index: 2;
+}
+
+.Highlight p{
+    color: #b9b9b9;
+    letter-spacing: 0.1vw;
+    font-weight: 200;
+}
+
+.Highlight h1{
+    color: #b39ea3;
+    font-size: 3.25vw;
+    width: 85%;
+
+}
+
+.Highlight svg{
+    width: 3vw;
+    height: 3vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+}
+
+.Highlight svg:hover{
+    animation: pulsate 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulsate {
+    from{
+        width: 3vw;
+        height: 3vw;
+        margin-top: 0.5vw;
+        margin-left: 1vw;
+    }
+    to{
+        width: 3.5vw;
+        height: 3.5vw;
+        margin-top: 0.25vw;
+        margin-left: 0.75vw;
+    }
+}
+
+.Highlight a{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 0.75vw;
+    border: solid;
+    width: fit-content;
+    padding: 0.25vw;
+    border-width: 0.15vw;
+    border-radius: 10%;
+    color: #101010;
+}

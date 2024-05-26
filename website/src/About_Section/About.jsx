@@ -1,8 +1,11 @@
+import Stars from "./BACKGROUND_Stars/Stars"
+
 function About(){
     return(
-        <p style={{fontSize:'10vw'}}>
-            ABOUT SECTION
-        </p>
+        
+        
+        <Stars />
+        
     )
 }
 

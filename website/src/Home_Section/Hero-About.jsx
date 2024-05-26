@@ -1,14 +1,16 @@
 import './Styles/Home.css'
 import './Styles/About_Panel.css'
 
-import { Canvas, useFrame } from "@react-three/fiber"
-import React from 'react'
+import { Canvas } from "@react-three/fiber"
 import { Model } from './Models/MODEL_Bust'
 
 const WIDTH = 33;
 const HEIGHT = 30;
 
+
+
 function Hero_About(){
+
     return(
         <a href='/about' style={{textDecoration:'none'}}>
             <div className='Hero_About Panel'>
@@ -34,5 +36,6 @@ function Hero_About(){
         
     )
 }
+
 
 export default Hero_About

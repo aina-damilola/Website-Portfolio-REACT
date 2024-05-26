@@ -7,11 +7,12 @@ import Projects from './Projects_Section/Projects'
 import Contacts from './Contacts_Section/Contacts'
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 
+
 function App(){
   return(
     <>
       <Router>
-        <div className='Header'>
+        <div id='_header' className='Header'>
           <Link className='link' to="/">Home</Link>
           <Link className='link' to="/about">About</Link>
           <Link className='link' to="/projects">Projects</Link>

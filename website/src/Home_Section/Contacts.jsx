@@ -3,6 +3,7 @@ import './Styles/Contacts.css'
 
 function Contacts(){
     return(
+        <a href='/contacts' style={{textDecoration:'none'}}>
         <div className='Contacts Panel' >
             <div className='text'>
                 <p>
@@ -26,6 +27,7 @@ function Contacts(){
             </div>
             
         </div>
+        </a>
     )
 }
 

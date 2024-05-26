@@ -24,6 +24,7 @@ function Earth(){
 
 function Projects(){
     return(
+        <a href='/projects' style={{textDecoration:'none'}}>
         <div className='Projects Panel'>
              <div className='text'>
                 <p>
@@ -43,6 +44,7 @@ function Projects(){
                 <spotLight intensity={10} position={[0,0,6]} />
             </Canvas>
         </div>
+        </a>
     )
 }
 

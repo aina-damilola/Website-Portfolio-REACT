@@ -11,15 +11,17 @@
     top: 0vh;
     width: 100%;
     z-index: 10;
+
 }
 
-.Header a{
+.Header .link{
+    text-decoration: none;
     color: rgb(200, 200, 200);
     cursor: pointer;
     letter-spacing: 0.1vw;
 }
 
-.Header a:hover{
+.Header .link:hover{
     border-bottom: solid;
     border-width: 0.125vw;
 }

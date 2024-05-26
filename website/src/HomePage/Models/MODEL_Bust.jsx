@@ -11,7 +11,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from "@react-three/fiber"
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/scene.gltf')
+  const { nodes, materials } = useGLTF('../../../public/Bust/scene.gltf')
 
   const modelref = useRef()
 
@@ -36,4 +36,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/scene.gltf')
+useGLTF.preload('../../../public/Bust/scene.gltf')

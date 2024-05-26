@@ -1,6 +1,12 @@
 .Projects p{
     color: #b9b9b9;
     letter-spacing: 0.1vw;
-    font-weight: 200;
+    font-weight: 400;
+}
+
+.Projects h1{
+    letter-spacing: 0.1vw;
+    color: #c7b298;
+    font-size: 5vw;
 }
 

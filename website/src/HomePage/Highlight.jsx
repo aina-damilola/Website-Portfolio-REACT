@@ -4,7 +4,7 @@ import './Styles/Highlight.css'
 import { Canvas, useFrame } from "@react-three/fiber"
 import React, { useRef } from 'react'
 
-const WIDTH = 6;
+const WIDTH = 5;
 const HEIGHT = 6;
 
 function Spinning_Sphere(){
@@ -19,7 +19,7 @@ function Spinning_Sphere(){
     return(
         <group position={[2,-2,0]}>
             <mesh ref={sphereref}>
-                <sphereGeometry args={[2.5, 14, 10]}/>
+                <torusGeometry args={[1.75, 1, 16, 50]}/>
                 <meshStandardMaterial wireframe color="white"/>
             </mesh>
         </group>

@@ -3,19 +3,20 @@
     font-size: 1vw;
     justify-content: space-evenly;
     display: flex;
-    background-color: rgb(240, 240, 240);;
+    background-color: rgb(100, 100, 100);
     font-family: "Roboto", sans-serif;
     padding-top: 1vh;
     padding-bottom: 1vh;
     position: fixed;
     top: 0vh;
     width: 100%;
-    
+    z-index: 10;
 }
 
 .Header a{
-    color: rgb(58, 58, 58);
+    color: rgb(200, 200, 200);
     cursor: pointer;
+    letter-spacing: 0.1vw;
 }
 
 .Header a:hover{

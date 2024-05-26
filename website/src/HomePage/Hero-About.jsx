@@ -23,8 +23,8 @@ function Hero_About(){
                 </p>
             </div>
             
-            <Canvas style={{position: 'absolute', color:'red', height:'inherit', width: 'inherit', zIndex:1}}orthographic camera={{left : -WIDTH/2, right: WIDTH/2, top: HEIGHT/2, bottom: -HEIGHT/2}}>
-                <spotLight angle={Math.PI/2}position={[-5,3,1]} intensity={75} />
+            <Canvas style={{position: 'absolute', height:'inherit', width: 'inherit', borderRadius:'0.5vw'}}orthographic camera={{left : -WIDTH/2, right: WIDTH/2, top: HEIGHT/2, bottom: -HEIGHT/2}}>
+                <spotLight angle={Math.PI/2}position={[-5,3,1]} intensity={200} />
                 <ambientLight intensity={0.1}/>
                 <Model  />
             </Canvas>

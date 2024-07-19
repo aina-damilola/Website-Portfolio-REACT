@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+#Hero{
+    margin-top: 5px;
+    display: flex;
+}
+
+#Hero img{
+    width: 50vw;
+    height: 33vw;
+    background-color: rgb(123, 123, 168);
+}
+
+#Hero #text{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Hero #text h1{
+    color: rgb(37, 37, 37);
+    font-family: "Wittgenstein", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 60px;
+    position: relative;
+    right: 55px;
+    margin: 0;
+}
+
+#Hero #text h2{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 15px;
+    align-self: center;
+    margin: 0;
+    position: relative;
+    right: 55px;
+}
+
+#bottom_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bottom_text p{
+    font-family: "Wittgenstein", serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 110px 0vw 0px 0vw; /* TOP RIGHT BOTTOM LEFT*/
+}
+
+.button{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: none;
+    border: none;
+    margin: 25px 0vw 100px 0vw; /* TOP RIGHT BOTTOM LEFT*/
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 13px;
+    align-self: center;
+    transition: 0.25s;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: rgb(114, 102, 31);
+}
+
+#projects_highlight{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#projects_highlight h1{
+    font-family: "Wittgenstein", serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px 0px 20px 0px; /* TOP RIGHT BOTTOM LEFT*/
+}
+
+#projects_highlight #projects_panel{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects_highlight #projects_panel_a{
+    display: flex;
+    flex-direction: column;
+}
+
+#projects_highlight .panel{
+    background-color: bisque;
+    margin: 10px 10px 10px 10px; /* TOP RIGHT BOTTOM LEFT*/
+    transition: 0.25s;
+}
+
+#projects_highlight .panel:hover{
+    cursor: pointer;
+}
+
+#projects_highlight #panel_a{
+    background-color: rgb(205, 187, 169);
+    width: 30vw;
+    height: 40vw;
+}
+
+#projects_highlight #panel_b{
+    background-color: rgb(171, 194, 171);
+    width: 37vw;
+    height: 21vw;
+}
+
+#projects_highlight #panel_c{
+    background-color: rgb(181, 159, 181);
+    width: 37vw;
+    height: 21vw;
+}
+
+#contact_highlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 216, 224);
+    margin-bottom: 100px;
+}
+
+#contact_highlight h1{
+    font-family: "Wittgenstein", serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+#other_highlights h1{
+    font-family: "Wittgenstein", serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px 0px 20px 0px; /* TOP RIGHT BOTTOM LEFT*/
+}
+
+#other_panel_collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding: 30px 100px 100px 100px; /* TOP RIGHT BOTTOM LEFT*/
+
+}
+
+

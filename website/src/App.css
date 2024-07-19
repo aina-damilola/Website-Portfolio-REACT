@@ -1,17 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
 body{
-  background-color: rgb(100, 100, 100);
-  color: black;
-  margin: 0;
-  padding: 0;
-  cursor:default;
-  overflow-x: hidden;
-  height: 200vh;
+    margin: 0px;
+    background-color: rgb(231, 250, 255);
 }
 
-p, h1, a{
-  margin: 0;
-  padding: 0;
+#header{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0px 7vw 0vw 120px; /* TOP RIGHT BOTTOM LEFT*/
+    display: flex;
+    justify-content: space-between;
 }
 
+#links{
+    margin-top: 30px;
+}
+
+#links .link{
+    text-decoration: none;
+    
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 0px 15px 0px 15px;
+    transition: 0.25s;
+}
+
+.head_a{
+    color: rgb(75, 75, 75);
+}
+
+#links .link:hover{
+    color: rgb(114, 102, 31);
+}
+
+#icon{
+    text-decoration: none;
+    font-family: "Wittgenstein", serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 15px 50px 5px 0vw; /* TOP RIGHT BOTTOM LEFT*/
+    transition: 0.25s;
+    color: rgb(0, 0, 0);
+}
+
+#icon:hover{
+    cursor: pointer;
+    color: rgb(114, 102, 31);
+}
+
+#footer{
+    background-color: rgb(132, 143, 158);
+    margin: 0px;
+    padding-top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_a{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+
+#footer_b{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+#footer_b p{
+    margin: 0px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-align: center;
+}
+
+#footer_b #credits_a{
+    margin-top: 20px;
+}
+
+#footer_b #credits_b{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.foot_a{
+    color: black;
+}
+
+#hyperlinks{
+    display: flex;
+    margin-right: 8vw;
+    align-items: center;
+}
+
+#hyperlinks a{
+    width: 25px;
+    height: 25px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hyperlinks img{
+    width: 20px;
+    transition: 0.25s;
+    height: 20px;
+}
+
+#hyperlinks img:hover{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}

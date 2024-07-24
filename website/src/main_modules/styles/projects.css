@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+#projects{
+    display: flex;
+    height: 70vh;
+    margin-top: 100px;
+    min-height: 400px;
+    /* border: solid; */
+}
+
+#preview{
+    /* border: solid; */
+    flex: 1;
+    display: flex;
+}
+
+#preview #image{
+    width: 85%;
+    height: 85%;
+    border-top-right-radius: 100px;
+    border: solid;
+    align-self: flex-end;
+}
+
+#catalogue{
+    /* border: solid; */
+    flex: 1;
+    margin-right: 250px;
+    padding-left: 100px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#catalogue #projects_header{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid; */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    color: #7e7e7e;
+    /* border: solid; */
+}
+
+#catalogue #projects_header h2{
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    font-family: "Wittgenstein", serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #7e7e7e;
+    /* border: solid; */
+    margin: 0px;
+    
+}
+
+#catalogue #scroll_box::-webkit-scrollbar{
+    display: none;
+}
+
+#catalogue #scroll_box{
+    /* border: solid; */
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 200px ;
+    flex: 1;
+}
+
+/* #catalogue #projects_header #projects_num{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+} */

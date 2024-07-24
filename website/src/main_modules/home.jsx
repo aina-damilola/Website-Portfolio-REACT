@@ -31,14 +31,27 @@ export function Home(){
                 </h1>
                 <div id='projects_panel'>
                     <div id='panel_a' className='panel'>
-
+                        <div className='panel-cons'>
+                            <img src='../public/pngtree-map-icon.png' />
+                            <h2>Mapping Software</h2>
+                            <p>30.04.24</p>
+                        </div>
                     </div>
                     <div id='projects_panel_a'>
                         <div id='panel_b' className='panel'>
+                            <div className='panel-cons'>
 
+                            </div>
                         </div>
                         <div id='panel_c' className='panel'>
-
+                            <div className='panel-cons'>
+                            
+                                <img src='../public/computer-icon.png'/>
+                                <div id='panel_c_i'>
+                                    <h2>Desktop Operating System</h2>
+                                    <p>09.05.24</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,19 +68,10 @@ export function Home(){
                     other interests
                 </h1>
                 <div id='other_panel_collection'>
-                    <Other_panel id='panel_o_a'src='../public/calculator-minimalistic-svgrepo-com.svg' width='150px' height = '150px' name = 'calculator'
-                    descrip = 'Lorem ipsum, dolor sitque voluptatibus aut hic architecto corrupti, dignissimos ut debitis distinctio placeat dicta, impedit consequatur dolore amet odit. Illo, quis odit!' 
-                    date = '24.04.23'/>
-                    <Other_panel id='panel_o_a'src='../public/calculator-minimalistic-svgrepo-com.svg' width='150px' height = '150px' name = 'calculator'
-                    descrip = 'Lorem ipsum, dolor sit amet cous aut hic architecto corrupti, dignissimos ut debitis distinctio placeat dicta, impedit consequatur dolore amet odit. Illo, quis odit!' 
-                    date = '24.04.23'/>
-                    <Other_panel id='panel_o_a'src='../public/calculator-minimalistic-svgrepo-com.svg' width='150px' height = '150px' name = 'calculator'
-                    descrip = 'Lorem ipsum, dolor    dignissimos ut debitis distinctio placeat dicta, impedit consequatur dolore amet odit. Illo, quis odit!' 
-                    date = '24.04.23'/>
-                    <Other_panel id='panel_o_a'src='../public/calculator-minimalistic-svgrepo-com.svg' width='150px' height = '150px' name = 'calculator'
-                    descrip = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste atque voluptatibus aut hic architecto corrupti, dignissimos ut debitis distinctio placeat dicta, impedit consequatur dolore amet odit. Illo, quis odit!' 
-                    date = '24.04.23'/>
-             
+                    <Other_panel id='panel_o_a' src='../public/pngtree-calculator.png'  
+                    descrip = '"...Extensive Minecraft Engineering Knowledge and Understanding of Computer Architecture to Create a Minecraft Calculator..."' 
+                    date = '24.04.23' bg = '#f0f0f0' name = 'MINECRAFT CALCULATOR' dest =''/>
+                    
                 </div>
                 
             </div>

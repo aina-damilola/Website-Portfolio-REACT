@@ -3,6 +3,8 @@
 body{
     margin: 0px;
     background-color: rgb(231, 250, 255);
+    display: flex;
+    overflow-x: hidden;
 }
 
 #header{
@@ -10,6 +12,8 @@ body{
     margin: 0px 7vw 0vw 120px; /* TOP RIGHT BOTTOM LEFT*/
     display: flex;
     justify-content: space-between;
+    width: calc(100vw - 120px - 7vw );
+    /* border: solid; */
 }
 
 #links{
@@ -57,6 +61,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 #footer_a{

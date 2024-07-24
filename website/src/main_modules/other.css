@@ -1,63 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
-
-#other_panel:hover{
-    cursor: pointer;
-}
-
-#img_con{
-    width: 90%;
-    margin-top: 15px;
-    height: 175px;
-    background-color: rgb(220, 220, 220);
-}
-
-#other_panel {
-    width: 325px;
-    height: auto; 
-    border-radius: 5px;
-    margin: 20px auto; /* Center the panel horizontally */
-    background-color: #ffffff; /* White background for the panel */
-    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.25);
+#other_panel{
+    width: 310px;
+    height: 380px; 
+    
+    margin: 30px;
+    background-color: transparent;
+    /* box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.25); */
     transition: 0.25s;
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
-    padding: 20px; /* Add padding inside the panel */
-    text-align: center; /* Center the text */
+    /* flex-direction: column; Stack children vertically
+    align-items: center; Center children horizontally */
+    text-align: center; /* Center the text */   
 }
-/* 
-#other_panel:hover {
+
+#other_panel_inner:hover{
     cursor: pointer;
-    box-shadow: 0px 8px 25px 0px rgba(0,0,0,0.35); /* Slightly larger shadow on hover 
 }
 
-#img_con {
+#other_panel_inner{
+    position: relative;
     width: 100%;
-    max-width: 150px; /* Limit the image width 
-    height: auto; /* Maintain aspect ratio 
-    margin-bottom: 15px; /* Space below the image 
-    background-color: #ddd; /* Placeholder background color 
-    border: none; /* Remove border 
+    height: 380px;
+    text-align: center;
+    transition: transform ease-in 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    border: solid;
+    border-width: 3px;
 }
 
-.panel_title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px; /* Space below the title 
-    color: #333; /* Darker text color 
+#other_panel:hover #other_panel_inner{
+    transform: rotateY(180deg);
 }
 
-.panel_description {
-    font-size: 14px;
-    color: #555; /* Slightly lighter text color 
-    margin-bottom: 15px; /* Space below the description 
+#other_panel_front, #other_panel_back{
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    border-radius: 20px;
 }
 
-.panel_date {
+#other_panel_front{
+    background-color: #ffffff;
+    
+}
+
+#other_panel_front #img_con{
+    padding-top: 30px;
+    height: 80%;
+}
+
+#other_panel_front #img_con img{
+    height: 80%;
+}
+
+#other_panel_front h1{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 30px; 
+    font-family: "Wittgenstein", serif;
+    color: rgb(36, 36, 36);
+    letter-spacing: 4px;
+    position: absolute;
+    bottom: 20px;
+}
+
+#other_panel_front p{
+    font-size: 15px;
+    text-align: right;
+    padding-right: 20px;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#other_panel_back{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotateY(180deg);
+}
+
+#other_panel_back h2{
+    font-family: "Wittgenstein", serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    width: 75%;
+    align-self: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+
+#other_panel_back #hyperlink{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 1px;
     font-size: 12px;
-    color: #999; /* Lighter text color for the date 
+    margin-top: 40px;
+    transition: 0.25s;
+    align-self: center;
+    width: fit-content;
+    
 }
- */
 
+#other_panel_back #hyperlink:hover{
+    cursor: pointer;
+    color: rgb(114, 102, 31);
+}
 
-
+/* background-color: #ffffff; White background for the panel */

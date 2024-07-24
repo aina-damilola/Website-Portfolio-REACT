@@ -1,0 +1,79 @@
+#container{
+    border-bottom: 2px solid #7e7e7e;
+    color: #616161;
+    padding: 5px;
+    transition: 0.25s color;
+    transition: 0.25s background-color;
+    padding-top: 10px;
+    /* border: solid; */
+    overflow-x: hidden;
+}
+
+#container:hover{
+    cursor: pointer;
+    background-color: rgb(123, 123, 168);
+    color: rgb(240, 240, 255);
+}
+
+
+
+#container:hover #primary h1{
+    right: -10px;
+}
+
+#container:hover #primary h1 svg{
+    stroke: rgb(240, 240, 255);
+}
+
+#primary{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid; */
+}
+
+#primary h1{
+    /* border: solid; */
+    font-family: "Wittgenstein", serif;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* border: solid; */
+    display: flex;
+    position: relative;
+    right: 35px;
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+#primary h1 svg{
+    stroke: #616161;
+    width: 35px;
+    height:35px;
+    align-self: center;
+    margin-right: 10px;
+    transition: 0.25s
+}
+
+#primary h2{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /* border: solid; */
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#secondary{
+    /* border: solid; */
+    display: flex;
+    justify-content: right;
+}
+
+#secondary p{
+    margin: 0px;
+    font-family: "Wittgenstein", serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}

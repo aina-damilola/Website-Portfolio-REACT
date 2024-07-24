@@ -1,0 +1,73 @@
+#contacts_page{
+    /* border: solid; */
+    width: fit-content;
+    /* background-color: rgb(209, 216, 224); */
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+
+    gap: 20px;
+    
+    /* border: solid; */
+}
+
+#linkedin_panel{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:rgba(100, 148, 237, 0.25);
+}
+
+#email_panel{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#github_panel{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgba(128, 128, 128, 0.25);
+}
+#youtube_panel{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgba(255, 0, 0, 0.25);
+}
+.contacts_page_panels{
+    /* border: solid; */
+    display: flex;
+    -webkit-box-shadow: -9px 9px 10px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: -9px 9px 10px -6px rgba(0,0,0,0.5);
+    box-shadow: -9px 9px 10px -6px rgba(0,0,0,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+    height: calc(800px/2 - 20px/2);
+    width: calc(80vw/2 - 20px/2);
+}
+
+.contacts_page_panels:hover svg{
+    
+    width: 220px;
+    height: 220px;
+}
+
+.contacts_page_panels svg{
+    /* border: solid; */
+    width: 200px;
+    height: 200px;
+    /* border: solid; */
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 0.25s cubic-bezier(0.215, 0.610, 0.355, 1);
+}

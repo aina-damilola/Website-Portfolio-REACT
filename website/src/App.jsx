@@ -43,7 +43,7 @@ function App(){
             
             <div id='hyperlinks'>
               <a href='https://www.linkedin.com/in/aina-damilola' target='_blank'><img src='../public/linkedin-161-svgrepo-com.svg'/></a>
-              <a href='https://github.com/damilola-aina' target='_blank'><img src='../public/github-142-svgrepo-com.svg'/></a>
+              <a href='https://github.com/aina-damilola' target='_blank'><img src='../public/github-142-svgrepo-com.svg'/></a>
               <a href='https://youtube.com/@aina-damilola?si=ljHSZcj9Ie8jLJd_' target='_blank'><img src='../public/youtube-168-svgrepo-com.svg'/></a>
             </div>
           </div>

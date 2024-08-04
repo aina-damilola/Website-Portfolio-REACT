@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+#profile_panel{
+    background-color: rgb(209, 216, 224);
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile_panel #title{
+    text-align: center;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.856);
+    margin-top: 100px;
+    margin-left: 0px;
+    display: block;
+}
+
+#profile_panel h1{
+    font-family: "Wittgenstein", serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#profile_panel h2{
+    font-family: "Wittgenstein", serif;
+    font-weight: 300;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#profile_panel h2 span{
+    font-family: "Wittgenstein", serif;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0px;
+}
+
+#profile_panel h3{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+
+#profile_panel p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 125px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 100px;
+}
+
+#profile_panel p span{
+    font-weight: bold;
+}
+
+
+/* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */

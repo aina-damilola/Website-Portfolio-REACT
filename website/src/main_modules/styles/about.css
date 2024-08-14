@@ -1,79 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
-#profile_panel{
-    background-color: rgb(209, 216, 224);
-    height: 400px;
-    
+#about_section{
     display: flex;
     flex-direction: column;
-    width: 80vw;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-#profile_panel #title{
-    text-align: center;
-    font-size: 50px;
+#about_section h2{
+    font-size: 3vw;
+    line-height: 110%;
+    font-weight: 800;
+    font-family: "Wittgenstein", serif;
+}
+
+#about_section p{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: 2px;
-    color: rgba(0, 0, 0, 0.856);
-    margin-top: 100px;
-    margin-left: 0px;
-    display: block;
-}
-
-#profile_panel h1{
-    font-family: "Wittgenstein", serif;
-    font-weight: 300;
-    font-size: 30px;
-    margin-left: 100px;
-    display: flex;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-#profile_panel h2{
-    font-family: "Wittgenstein", serif;
-    font-weight: 300;
-    font-size: 13px;
-    font-style: italic;
-    letter-spacing: 2px;
-    margin-left: 150px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#profile_panel h2 span{
-    font-family: "Wittgenstein", serif;
-    font-weight: bold;
-    font-size: 12px;
-    font-style: italic;
-    letter-spacing: 0px;
-}
-
-#profile_panel h3{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    line-height: 160%;
     font-size: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 150px;
 }
 
-#profile_panel p{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 125px;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: 2px;
+#about_section h1{
+    text-align: center;
+    font-size: 8vw;
+    font-family: "Wittgenstein", serif;
+    font-weight: 800;
+    /* border: solid; */
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+#about_section .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about_section #hero{
+    /* border: solid; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#about_section #hero #potrait{
+    width: 20vw;
+    height: 20vw;
+    /* border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw; */
+    /* margin-left: 5vw; */
+}
+
+#about_section #descrip{
+    width: 45vw;
+}
+
+#about_section #descrip h2{
+    margin-left: 7.5vw;
+    margin-top: 1vw;
+}
+
+#about_section #descrip p{
+    margin-left: 7.5vw;
+}
+
+#about_section #mid-a{
+    margin-left: 30vw;
+    width: 60vw;
+}
+
+#about_section #mid-b{
+    margin-left: 30vw;
+    width: 33vw;
+}
+
+#about_section #grid-4box{
+    display: grid;
+    background-color: rgb(216, 216, 216);
+    width: calc(85vw - 200px);
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    align-self: center;
+    border-radius: 4vw;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about_section #grid-4box h3{
+    font-family: "Wittgenstein", serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+#about_section #grid-4box h2{
+    font-size: 35px;
+}
+
+#about_section #grid-4box .grid-square{
+    /*TOP RIGHT BOTTOM LEFT*/
+    margin: 0px;
+    width: 33vw;
+}
+
+#about_section #end-paragraph{
+    margin-left: 30vw;
+    width: 35vw;
+    margin-bottom: 4vw;
+}
+
+#about_section #large_image{
+    width: 45vw;
+}
+
+#about_section #small_image{
+    width: 20vw;
+}
+
+#about_section .gallery_images{
+    height: 28vw;
+    border-radius: 2vw;
+    margin-bottom: 10vw;
+    margin-top: 2vw;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+}
+
+#about_section .gallery_images:hover span{
+    opacity: 100%;
+}
+
+#about_section .gallery_images span{
+    background-color: white;
+    align-self: flex-end;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 7.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Wittgenstein", serif;
+    font-weight: 600;
+    line-height: 160%;
     font-size: 15px;
-    line-height: 25px;
-    margin-right: 100px;
+    border-radius: 10px;
+    opacity: 0%;
+    transition: 0.25s;
 }
-
-#profile_panel p span{
-    font-weight: bold;
-}
-
-
 /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+/* font-family: "Wittgenstein", serif; */

@@ -30,29 +30,10 @@ export function Home(){
                     my project highlights
                 </h1>
                 <div id='projects_panel'>
-                    <div id='panel_a' className='panel'>
-                        <div className='panel-cons'>
-                            <img src='../public/pngtree-map-icon.png' />
-                            <h2>Mapping Software</h2>
-                            <p>30.04.24</p>
-                        </div>
-                    </div>
+                    <Other_panel width = '23vw' height = '30vw' src = '../public/Space_dog.jpg' bg = 'white' name = 'Space Dog' descrip = 'lorem ipsum' date = '00.00.00' dest = '/'/>
                     <div id='projects_panel_a'>
-                        <div id='panel_b' className='panel'>
-                            <div className='panel-cons'>
-
-                            </div>
-                        </div>
-                        <div id='panel_c' className='panel'>
-                            <div className='panel-cons'>
-                            
-                                <img src='../public/computer-icon.png'/>
-                                <div id='panel_c_i'>
-                                    <h2>Desktop Operating System</h2>
-                                    <p>09.05.24</p>
-                                </div>
-                            </div>
-                        </div>
+                        <Other_panel width = '30vw' height = '17vw' src = '../public/map_project_1.png' bg = 'white' name = 'Mapping Software' descrip = 'lorem ipsum' date = '30.04.24' dest = '/'/>
+                        <Other_panel width = '27vw' height = '20vw' src = '../public/desktop_project.png' bg = 'white' name = 'Desktop Operating System' descrip = 'lorem ipsum' date = '09.05.24' dest = '/'/>
                     </div>
                 </div>
                 <Link className='button' to="/projects">SEE MORE</Link>
@@ -68,9 +49,10 @@ export function Home(){
                     other interests
                 </h1>
                 <div id='other_panel_collection'>
-                    <Other_panel id='panel_o_a' src='../public/pngtree-calculator.png'  
+                    <Other_panel id='panel_o_a' src='../public/minecraft_project.png'  
                     descrip = '"...Extensive Minecraft Engineering Knowledge and Understanding of Computer Architecture to Create a Minecraft Calculator..."' 
-                    date = '24.04.23' bg = '#f0f0f0' name = 'MINECRAFT CALCULATOR' dest =''/>
+                    date = '24.04.23' bg = '#f0f0f0' name = 'MINECRAFT CALCULATOR' dest =''
+                    width = '380px' height = '310px'/>
                     
                 </div>
                 

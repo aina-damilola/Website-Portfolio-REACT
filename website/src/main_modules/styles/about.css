@@ -3,6 +3,7 @@
 #about_section{
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 #about_section h2{
@@ -10,10 +11,11 @@
     line-height: 110%;
     font-weight: 800;
     font-family: "Wittgenstein", serif;
+    color: rgb(58, 75, 99);
 }
 
 #about_section p{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "Wittgenstein", serif;
     font-weight: 600;
     line-height: 160%;
     font-size: 20px;
@@ -27,12 +29,14 @@
     /* border: solid; */
     margin-top: 5vw;
     margin-bottom: 2vw;
+    color: rgb(94, 94, 94);
 }
 
 #about_section .image{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
 #about_section #hero{
@@ -91,6 +95,7 @@
     font-size: 40px;
     font-weight: 800;
     margin: 0;
+    color: rgb(94, 94, 94);
 }
 
 #about_section #grid-4box h2{
@@ -117,6 +122,10 @@
     width: 20vw;
 }
 
+#about_section #medium_image{
+    width: 30vw;
+}
+
 #about_section .gallery_images{
     height: 28vw;
     border-radius: 2vw;
@@ -124,18 +133,18 @@
     margin-top: 2vw;
     margin-left: 15px;
     margin-right: 15px;
-    display: flex;
+    
 }
 
-#about_section .gallery_images:hover span{
+#about_section .image:hover span{
     opacity: 100%;
 }
 
-#about_section .gallery_images span{
+#about_section .image span{
     background-color: white;
     align-self: flex-end;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin-left: 3em;
+    margin-bottom: 3em;
     padding: 7.5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -146,6 +155,15 @@
     border-radius: 10px;
     opacity: 0%;
     transition: 0.25s;
+}
+
+#about_section #icon_image{
+    width: 128px;
+    height: 128px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
 }
 /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
 /* font-family: "Wittgenstein", serif; */

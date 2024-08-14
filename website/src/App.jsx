@@ -26,7 +26,15 @@ function App(){
           <Route path='/about' element={<About/>} />
           <Route path='/projects' element={<Projects/>} />
           <Route path='/contacts' element={<Contacts/>} />
-            
+
+          <Route path='/projects/space-dog' element={<div/>} />
+          {/* <Route path='/projects/' element={<div/>} />
+          <Route path='/projects/' element={<div/>} />
+          <Route path='/projects/' element={<div/>} />
+          <Route path='/projects/' element={<div/>} />
+          <Route path='/projects/' element={<div/>} />
+          <Route path='/projects/' element={<div/>} />
+          <Route path='/projects/' element={<div/>} /> */}
         </Routes>
 
         <div id='footer'>
@@ -42,9 +50,9 @@ function App(){
             </div>
             
             <div id='hyperlinks'>
-              <a href='https://www.linkedin.com/in/aina-damilola' target='_blank'><img src='../public/linkedin-161-svgrepo-com.svg'/></a>
-              <a href='https://github.com/aina-damilola' target='_blank'><img src='../public/github-142-svgrepo-com.svg'/></a>
-              <a href='https://youtube.com/@aina-damilola?si=ljHSZcj9Ie8jLJd_' target='_blank'><img src='../public/youtube-168-svgrepo-com.svg'/></a>
+              <a href='https://www.linkedin.com/in/aina-damilola' target='_blank'><img src='../public/footer_icons/linkedin-161-svgrepo-com.svg'/></a>
+              <a href='https://github.com/aina-damilola' target='_blank'><img src='../public/footer_icons/github-142-svgrepo-com.svg'/></a>
+              <a href='https://youtube.com/@aina-damilola?si=ljHSZcj9Ie8jLJd_' target='_blank'><img src='../public/footer_icons/youtube-168-svgrepo-com.svg'/></a>
             </div>
           </div>
           <div id='footer_b'>

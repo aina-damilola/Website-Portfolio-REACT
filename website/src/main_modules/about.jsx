@@ -1,9 +1,5 @@
 import "./styles/about.css"
-import { Marquee } from "./marquee"
- 
-//                     <span>[2]</span> Passionate about leveraging technology to solve complex problems and create innovative solutions. Interest are mainly in <span>software & web development</span> and <span>machine learning</span>. 
-//                     <span>[4]</span> I am actively involved in various projects and in my free time, I enjoy coding, exploring new technologies, and participating in hackathons
-
+import { Marquee } from "../Helper modules/marquee"
 
 export function About(){
     return(
@@ -12,7 +8,7 @@ export function About(){
                 I'm Dami.
             </h1>
             <div id="hero">
-                <div className="image" id="potrait"style={{backgroundImage:'url(../public/faces.jpg)'}}></div>
+                <div className="image" id="potrait"style={{backgroundImage:'url(../public/misc_images/profile.jpg)'}}><span>Valedictorian</span></div>
                 <div id="descrip">
                     <h2>
                         I'm a Software Engineer with personal experience in Web development!
@@ -25,9 +21,30 @@ export function About(){
                 </div>
             </div>
             <div>
-                <Marquee/>
-                <Marquee/>
-                <Marquee/>
+                
+                
+                
+
+                <Marquee>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/C.svg)'}}><span>C</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/CPlusPlus.svg)'}}><span>C++</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/Python.svg)'}}><span>Python</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/Pytorch.svg)'}}><span>PyTorch</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/JS.svg)'}}><span>JavaScript</span></div>
+                </Marquee>
+                <Marquee>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/CSS.svg)'}}><span>CSS3</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/HTML.svg)'}}><span>HTML5</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/React.svg)'}}><span>React Native</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/ThreeJS.svg)'}}><span>ThreeJS</span></div>
+                </Marquee>
+                <Marquee>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/SOLIDWORKS.svg)'}}><span>SOLIDWORKS</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/VerilogHDL.svg)'}}><span>VerilogHDL</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/Arduino.svg)'}}><span>Arduino</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/VSCode.svg)'}}><span>VSCode IDE</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/Assembly.svg)'}}><span>Nios II Assembly</span></div>
+                </Marquee>
             </div>
             <h2 id="mid-a">
                 I believe in a passionate, diverse and collaborative environment with every problem, project and client.
@@ -92,9 +109,11 @@ export function About(){
                 Beyond my career focus, I continue to enjoy various sports, outdoor adventures, and occasional hobbies. My most recent accomplishment was a skiing trip where, thankfully, I managed not to break an ankle!
             </p>
             <Marquee>
-                <div className="image gallery_images" id="large_image" style={{backgroundImage:'url(../public/large-01.jpg)'}}><span>Milton, Ontario</span></div>
-                <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(../public/small-01.jpg)'}}><span>Coldwater, Ontario</span></div>
-                <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(../public/small-02.jpg)'}}><span>Calgary, Alberta</span></div>
+                <div className="image gallery_images" id="large_image" style={{backgroundImage:'url(../public/misc_images/large-01.jpg)'}}><span>Milton, Ontario</span></div>
+                <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(../public/misc_images/small-01.jpg)'}}><span>Coldwater, Ontario</span></div>
+                <div className="image gallery_images" id="medium_image" style={{backgroundImage:'url(../public/misc_images/medium-01.jpg)'}}><span>Front Campus, University of Toronto</span></div>
+                <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(../public/misc_images/small-02.jpg)'}}><span>Calgary, Alberta</span></div>
+                
             </Marquee>
         </div>
     )

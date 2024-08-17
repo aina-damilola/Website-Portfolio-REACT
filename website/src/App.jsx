@@ -7,6 +7,8 @@ import { About } from './main_modules/about'
 import { Projects } from './main_modules/projects'
 import { Contacts } from './main_modules/contacts'
 
+import { Space_dog } from './Project modules/space_dog'
+
 function App(){
   return(
     <>
@@ -27,7 +29,7 @@ function App(){
           <Route path='/projects' element={<Projects/>} />
           <Route path='/contacts' element={<Contacts/>} />
 
-          <Route path='/projects/space-dog' element={<div/>} />
+          <Route path='/projects/space-dog' element={<Space_dog/>} />
           {/* <Route path='/projects/' element={<div/>} />
           <Route path='/projects/' element={<div/>} />
           <Route path='/projects/' element={<div/>} />

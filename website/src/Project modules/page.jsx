@@ -1,34 +1,39 @@
+import "./page.css"
+
 export function Page(props){
     return(
-        <div>
-            <div>
-                <img src={props.img}/>
-                <div>
+        <div id="con">
+            <div id="con-a">
+                <img id="con-a-a" style={{width:props.img_width}}
+                src = {props.img_link}/>
+                <div id="con-a-b">
                     <h1>{props.name}</h1>
-                    <h3>{props.short}</h3>
+                    <h4>{props.short}</h4>
                 </div>
             </div>
-            <h2>CREATION</h2>
-            <div>
-                <div>{props.creation}</div>
-                <div>{props.skills}</div>
+            <h2>description</h2>
+            <div id="con-b">
+                <div id="con-b-a">{props.descrip}</div>
+                
+            </div>
+            <div id="con-b-b">{props.skills}</div>
+            <h2>usage</h2>
+            <div id="con-c">{props.usage}</div>
+
+            <div id="con-d">
+                <div id="con-d-a">
+                    <h3>Demo</h3>
+                    <div id="con-d-a-a">
+                        {props.github}
+                        {props.youtube}
+                    </div>
+                </div>
+                <video  width='650px' controls='controls'>
+                    {props.vid}
+                </video>
             </div>
             
-            <h2>USAGE</h2>
-            <div>{props.usage}</div>
-            <div>
-                <div>
-                    <h3>Demo Video</h3>
-                </div>
-
-            </div>
-            <h2>TAKEAWAYS</h2>
-            <div>{props.takeaways}</div>
-
-
-
-
-
+            
         </div>
     )
 }

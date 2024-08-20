@@ -1,0 +1,20 @@
+.icons{
+    width: 60px;
+    padding: 15px;
+    margin: 15px;
+    background-color: beige;
+    border-radius: 100%;
+    transition: 0.25s;
+
+    -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.icons:hover{
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}

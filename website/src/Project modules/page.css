@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+#con{
+    display: flex;
+    flex-direction: column;
+}
+
+#con-a{
+    display: flex;
+    margin-top: 4vw;
+}
+
+#con-a-a{
+    margin-left: 100px;
+    border-radius: 10vw;
+}
+
+#con-a-b{
+    margin-top: 100px;
+}
+
+#con-a-b h1{
+    font-size: 8vw;
+    font-family: "Wittgenstein", serif;
+    font-weight: 800;
+    margin: 0px;
+    position: relative;
+    right: 100px;
+}
+
+#con-a-b h4{
+    font-family: "Wittgenstein", serif;
+    font-weight: 600;
+    line-height: 160%;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 6vw;
+    line-height: 110%;
+    font-weight: 800;
+    font-family: "Wittgenstein", serif;
+    margin: 0px;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+#con-b{
+    display: flex;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#con-b-a{
+    font-family: "Wittgenstein", serif;
+    font-weight: 600;
+    line-height: 200%;
+    font-size: 20px;
+    width: 50vw;
+}
+
+#con-b-b{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#con-c{
+    font-family: "Wittgenstein", serif;
+    font-weight: 600;
+    line-height: 200%;
+    font-size: 20px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    font-size: 3vw;
+    line-height: 110%;
+    font-weight: 800;
+    font-family: "Wittgenstein", serif;
+    margin: 0px;
+    text-align: center;
+}
+
+#con-d{
+    display: flex;
+    justify-content: center;
+}
+
+#con-d-a{
+    align-content: center;
+}
+
+video{
+    justify-self: center;
+    align-self: center;
+}

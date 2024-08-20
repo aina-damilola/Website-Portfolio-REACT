@@ -1,15 +1,32 @@
 import { Page } from "./page"
 
+import "./template.css"
+
 export function Space_dog(){
     return(
-        <Page img = "../../public/project_images/Space_dog.jpg" name = "Space Dog"
+        <Page img_link = "../../public/project_images/Space_dog.jpg" img_width = '45vw' 
+        name = "Space Dog"
         short = "Robot Prototype for Space exploration"
 
-        creation = {<div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis asperiores velit et id, minima quas facilis eligendi assumenda, nulla suscipit voluptate minus eos officia accusamus veniam, harum fuga necessitatibus quisquam?</div>} 
+        descrip = {<div>The primary goal for the project was to design a space rover to overcome difficulties in logistics and delay in operation during space exploration. 
+        <br/><br/>The three core aspects are perception, reasoning and actuation. By utilizing a ultrasonic sensor and a pair of photoresistors, our rover is able to prevent obstacle colllision and navigate it towards light. Additionally, our rover implements a PID control loop where the error is the difference in voltage between the two photoresistors, and that allows us to determine which direction to steer in. </div>} 
+        skills = {<><img className="icons" src="../../public/skills_logos/Arduino.svg"
+        /><img className="icons" src="../../public/skills_logos/CPlusPlus.svg"
+        /><img className="icons" src="../../public/skills_logos/VSCode.svg"
+        /></>}
         
-        usage = {<div>Vestibulum interdum ante sagittis erat hac etiam hac fusce eros. Ante lobortis fames diam curae pretium dictum commodo. Mollis mauris arcu iaculis eros pulvinar habitasse. Tortor sodales posuere condimentum nisl hac ad. Egestas porttitor eget habitasse congue aliquam sit egestas. Sociosqu erat cras pellentesque quam sollicitudin. Ornare lacinia enim etiam hendrerit volutpat fames montes.</div>}
+        usage = {<div>
+            On startup, the robot will attempt to lock onto a light source by rotating in circles until a certain
+            light threshold is detected by the photoresistors. Following that, our path planning algorithm that
+            incorporates the ultrasonic sensor and photoresistors kicks in and allows it to follow said light
+            source.</div>}
         
-        takeaways = {<div>Sagittis class donec ex hac; urna ad diam urna. Pretium posuere in magnis arcu hac vestibulum. Libero nascetur morbi; vehicula purus arcu mauris leo et dis. Sem felis magnis congue penatibus turpis accumsan eleifend. Id blandit torquent lorem leo ridiculus platea. Mattis sagittis ullamcorper urna eleifend nostra varius dis nascetur. Tempus eleifend vulputate nisl interdum efficitur ullamcorper. Nibh senectus augue quam ad litora sed luctus scelerisque.</div>}
+        vid = {<source src="../../public/vid.mp4" type="video/mp4" />}
+        
+        youtube = {<a><img src="../../public/misc_images/youtube-button.svg"/></a>}
+
+        github = {<a><img src="../../public/misc_images/github-button.svg"/></a>}
+
         />
     )
 }

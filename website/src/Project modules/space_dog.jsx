@@ -13,7 +13,8 @@ export function Space_dog(){
         skills = {<><img className="icons" src="../../public/skills_logos/Arduino.svg"
         /><img className="icons" src="../../public/skills_logos/CPlusPlus.svg"
         /><img className="icons" src="../../public/skills_logos/VSCode.svg"
-        /></>}
+        />
+        <img className="icons" src="../../public/skills_logos/SOLIDWORKS.svg"/></>}
         
         usage = {<div>
             On startup, the robot will attempt to lock onto a light source by rotating in circles until a certain
@@ -26,7 +27,12 @@ export function Space_dog(){
         youtube = {<a><img src="../../public/misc_images/youtube-button.svg"/></a>}
 
         github = {<a><img src="../../public/misc_images/github-button.svg"/></a>}
-
+        
+        extra = {<div>
+            Our team was tasked in making this project within 24 hours at the UTRA Hacks 2024 hackathon. I polished the skill and tools listed above as well as my ability to time manage and work under pressure.
+            <br/><br/>
+            I was able to 3D design parts that could be used for the Robot including hands on development such as soddering motor parts and circuit design.
+        </div>}
         />
     )
 }

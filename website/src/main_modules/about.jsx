@@ -45,6 +45,7 @@ export function About(){
                     <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/VSCode.svg)'}}><span>VSCode IDE</span></div>
                     <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/Assembly.svg)'}}><span>Nios II Assembly</span></div>
                     <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/Git.svg)'}}><span>Git</span></div>
+                    <div className="image" id="icon_image" style={{backgroundImage:'url(../public/skills_logos/CircuitDesign.svg'}}><span>Circuit Design</span></div>
                 </Marquee>
             </div>
             <h2 id="mid-a">

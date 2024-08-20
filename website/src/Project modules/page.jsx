@@ -14,9 +14,13 @@ export function Page(props){
             <h2>description</h2>
             <div id="con-b">
                 <div id="con-b-a">{props.descrip}</div>
-                
+                <div id="con-b-b">{props.skills}</div>
+                <div id="con-b-a">
+                    {props.extra}
+                </div>
             </div>
-            <div id="con-b-b">{props.skills}</div>
+            
+            
             <h2>usage</h2>
             <div id="con-c">{props.usage}</div>
 

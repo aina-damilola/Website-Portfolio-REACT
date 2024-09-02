@@ -11,7 +11,7 @@ export function Page(props){
                     <h4>{props.short}</h4>
                 </div>
             </div>
-            <h2>description</h2>
+            <h2>Description</h2>
             <div id="con-b">
                 <div id="con-b-a">{props.descrip}</div>
                 <div id="con-b-b">{props.skills}</div>

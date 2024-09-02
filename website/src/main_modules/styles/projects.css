@@ -60,15 +60,10 @@
     
 }
 
-#catalogue #scroll_box::-webkit-scrollbar{
-    display: none;
-}
 
 #catalogue #scroll_box{
     /* border: solid; */
     overflow-y: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     height: 200px ;
     flex: 1;
 }

@@ -44,11 +44,12 @@
     display: flex;
     /* align-items: center; */
     justify-content: center;
+    margin-bottom: 75px;
 }
 
 #about_section #hero #potrait{
     width: 20vw;
-    height: 20vw;
+    height: 25vw;
     /* border-top-left-radius: 10vw;
     border-top-right-radius: 10vw; */
     /* margin-left: 5vw; */
@@ -68,13 +69,16 @@
 }
 
 #about_section #mid-a{
-    margin-left: 30vw;
+    margin-left: 25vw;
     width: 60vw;
+    text-align: left;
+    /* border: solid; */
 }
 
 #about_section #mid-b{
     margin-left: 30vw;
     width: 33vw;
+    /* border: solid; */
 }
 
 #about_section #grid-4box{
@@ -85,9 +89,10 @@
     margin-bottom: 4vw;
     align-self: center;
     border-radius: 4vw;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
+    row-gap: 100px;
 }
 
 #about_section #grid-4box h3{
@@ -95,11 +100,18 @@
     font-size: 40px;
     font-weight: 800;
     margin: 0;
+    margin-bottom: 10px;
     color: rgb(94, 94, 94);
 }
 
 #about_section #grid-4box h2{
     font-size: 35px;
+    margin: 0px;
+}
+
+#about_section #grid-4box p{
+    text-align: center;
+    line-height: 200%;
 }
 
 #about_section #grid-4box .grid-square{
@@ -139,8 +151,27 @@
 #about_section .image:hover span{
     opacity: 100%;
 }
+#about_section #icon_image:hover span{
+    opacity: 100%;
+}
 
-#about_section .image span{
+
+#about_section #icon_image span{
+    align-self: flex-end;
+    font-family: "Wittgenstein", serif;
+    font-weight: 600;
+    line-height: 160%;
+    font-size: 15px;
+    opacity: 0%;
+    transition: 0.25s;
+    margin: auto;
+    color: white;
+    background-color: rgb(94, 94, 94);
+    padding: 5%;
+    border-radius: 25%;
+}
+
+#about_section .gallery_images span{
     background-color: white;
     align-self: flex-end;
     margin-left: 3em;

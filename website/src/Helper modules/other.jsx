@@ -23,7 +23,7 @@ export function Other_panel(props){
                         {props.descrip}
                     </h2>
                     <p>
-                        {props.date}
+                        {props.skills}
                     </p>
                     <Link id='hyperlink' to = {props.dest}>LEARN MORE</Link>
                 </div>

@@ -5,6 +5,7 @@ body{
     background-color: rgb(231, 250, 255);
     display: flex;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 #header{

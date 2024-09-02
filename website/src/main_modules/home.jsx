@@ -8,7 +8,7 @@ export function Home(){
     return(
         <>
             <div id="Hero">
-                 <img src="../public/misc_images/sea_oasis.jpg"/>
+                 <img src="./misc_images/sea_oasis.jpg"/>
 
                 <div id='text'>
                     <h1>
@@ -21,7 +21,7 @@ export function Home(){
             </div>
             <div id='bottom_text'>
                 <p>
-                    "achieving life through dedication and commitment"
+                    "anything worth doing is worth doing well"
                 </p>
                 <Link className='button' to="/about">LEARN MORE</Link>
             </div>
@@ -30,10 +30,10 @@ export function Home(){
                     my project highlights
                 </h1>
                 <div id='projects_panel'>
-                    <Other_panel width = '23vw' height = '30vw' src = '../public/project_images/Space_dog.jpg' bg = 'white' name = 'Space Dog' descrip = 'lorem ipsum' date = '00.00.00' dest = '/projects/space-dog'/>
+                    <Other_panel width = '23vw' height = '30vw' src = './project_images/Space_dog.jpg' bg = 'white' name = 'Space Dog' descrip = 'Robot Prototype for Space exploration' skills = 'Arduino | C++ | Circuit Design | SOLIDWORKS' dest = '/projects/Space-Dog'/>
                     <div id='projects_panel_a'>
-                        <Other_panel width = '30vw' height = '17vw' src = '../public/project_images/map_project_1.png' bg = 'white' name = 'Mapping Software' descrip = 'lorem ipsum' date = '30.04.24' dest = '/'/>
-                        <Other_panel width = '27vw' height = '20vw' src = '../public/project_images/desktop_project.png' bg = 'white' name = 'Desktop Operating System' descrip = 'lorem ipsum' date = '09.05.24' dest = '/'/>
+                        <Other_panel width = '30vw' height = '17vw' src = './project_images/map_project_1.png' bg = 'white' name = 'Mapping Software' descrip = 'Mobile Map with live routing and pathfinding' skills = 'C++ | EZGL' dest = '/projects/Mapping-Software'/>
+                        <Other_panel width = '27vw' height = '20vw' src = './project_images/desktop_project.png' bg = 'white' name = 'Desktop Operating System' descrip = 'Operating Sytem with text editor and file manager' skills = 'C Language | NIOS II Assembly Language' dest = '/projects/Desktop-Operating-System'/>
                     </div>
                 </div>
                 <Link className='button' to="/projects">SEE MORE</Link>
@@ -49,11 +49,10 @@ export function Home(){
                     other interests
                 </h1>
                 <div id='other_panel_collection'>
-                    <Other_panel id='panel_o_a' src='../public/project_images/minecraft_project.png'  
-                    descrip = '"...Extensive Minecraft Engineering Knowledge and Understanding of Computer Architecture to Create a Minecraft Calculator..."' 
-                    date = '24.04.23' bg = '#f0f0f0' name = 'Minecraft Calculator' dest =''
+                    <Other_panel id='panel_o_a' src='./project_images/minecraft_project.png'  
+                    descrip = 'Simple Calculator created in Minecraft' 
+                    skills = 'Minecraft | Circuit Design' bg = '#f0f0f0' name = 'Minecraft Calculator' dest =''
                     width = '380px' height = '310px'/>
-                    
                 </div>
                 
             </div>

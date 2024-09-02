@@ -108,12 +108,15 @@ export function About(){
                 <br/><br/>
                 Outside of my career, I enjoy sports, outdoor adventures, and hobbies, with my latest accomplishment being a successful (and injury-free) skiing trip.
             </p>
-            <Marquee>
-                <div className="image gallery_images" id="large_image" style={{backgroundImage:'url(./misc_images/large-01.jpg)'}}><span>Milton, Ontario</span></div>
-                <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(./misc_images/small-01.jpg)'}}><span>Coldwater, Ontario</span></div>
-                <div className="image gallery_images" id="medium_image" style={{backgroundImage:'url(./misc_images/medium-01.jpg)'}}><span>Front Campus, University of Toronto</span></div>
-                <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(./misc_images/small-02.jpg)'}}><span>Calgary, Alberta</span></div>
-            </Marquee>
+            <div id="photo_gallery">
+                <Marquee>
+                    <div className="image gallery_images" id="large_image" style={{backgroundImage:'url(./misc_images/large-01.jpg)'}}><span>Milton, Ontario</span></div>
+                    <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(./misc_images/small-01.jpg)'}}><span>Coldwater, Ontario</span></div>
+                    <div className="image gallery_images" id="medium_image" style={{backgroundImage:'url(./misc_images/medium-01.jpg)'}}><span>Front Campus, University of Toronto</span></div>
+                    <div className="image gallery_images" id="small_image" style={{backgroundImage:'url(./misc_images/small-02.jpg)'}}><span>Calgary, Alberta</span></div>
+                </Marquee>
+            </div>
+            
         </div>
     )
 }

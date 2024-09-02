@@ -8,6 +8,13 @@ import { Projects } from './main_modules/projects'
 import { Contacts } from './main_modules/contacts'
 
 import { Space_dog } from './Project modules/space_dog'
+import { Brain_tumor_detector } from './Project modules/brain_tumor_detector'
+import { Desktop_OS } from './Project modules/desktop_OS'
+import { Mobile_map } from './Project modules/mobile_map'
+import { Prototype_SHADOW } from './Project modules/prototype_SHADOW'
+import { SIMON_piano_edition } from './Project modules/SIMON_piano_edition'
+import { World_le } from './Project modules/world_le'
+import { Minecraft_calculator } from './Project modules/minecraft_calculator'
 
 function App(){
   return(
@@ -30,13 +37,13 @@ function App(){
           <Route path='/contacts' element={<Contacts/>} />
 
           <Route path='/projects/space-dog' element={<Space_dog/>} />
-          {/* <Route path='/projects/' element={<div/>} />
-          <Route path='/projects/' element={<div/>} />
-          <Route path='/projects/' element={<div/>} />
-          <Route path='/projects/' element={<div/>} />
-          <Route path='/projects/' element={<div/>} />
-          <Route path='/projects/' element={<div/>} />
-          <Route path='/projects/' element={<div/>} /> */}
+          <Route path='/projects/brain_tumor_detector' element={<Brain_tumor_detector />} />
+          <Route path='/projects/desktop_OS' element={< Desktop_OS/>} />
+          <Route path='/projects/mobile_map' element={<Mobile_map/>} />
+          <Route path='/projects/prototype_SHADOW' element={<Prototype_SHADOW/>} />
+          <Route path='/projects/SIMON_piano_edition' element={<SIMON_piano_edition/>} />
+          <Route path='/projects/world_le' element={<World_le/>} />
+          <Route path='/projects/minecraft_calculator' element={< Minecraft_calculator/>} /> 
         </Routes>
 
         <div id='footer'>

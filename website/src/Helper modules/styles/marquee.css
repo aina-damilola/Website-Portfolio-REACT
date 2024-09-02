@@ -8,6 +8,11 @@
     animation: scroll-left 120s linear infinite;
 }
 
+#frame_con{
+    width: 100vw;
+    overflow: hidden;
+}
+
 @-moz-keyframes scroll-left {
     0% {
         -moz-transform: translateX(0%);

@@ -1,8 +1,9 @@
 import "./styles/projects_option.css"
-
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 
 export function Option(props){
     return(
+        <Link to = {props.dest} style={{textDecoration: 'none'}}>
         <div id="container" onMouseEnter={() => props.onHover(props.image)} onMouseLeave={() => props.onHover('./project_images/image_noise.png')}>
             <div id="primary">
                 <h1>
@@ -20,5 +21,6 @@ export function Option(props){
             
             </div>
         </div>
+        </Link>
     )
 }

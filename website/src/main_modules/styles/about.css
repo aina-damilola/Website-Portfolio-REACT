@@ -196,5 +196,10 @@
     margin-bottom: 0.5vw;
     margin-top: 0.5vw;
 }
+
+#photo_gallery{
+    margin: 0vw 10vw;
+    overflow: hidden;
+}
 /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
 /* font-family: "Wittgenstein", serif; */

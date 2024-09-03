@@ -4,17 +4,18 @@ import "./template/template.css"
 
 export function World_le(){
     return(
-        <Page img_link = "" img_width = '' name = "" short = ""
+        <Page img_link = "" img_width = '' name = "World-le" short = "A geography minigame"
 
         descrip = {<div></div>} 
+        
         skills = {<>
-        <img className="icons" src="../skills_logos/"/>
-        <img className="icons" src="../skills_logos/"/>
+        <img className="icons" src="../skills_logos/Python.svg"/>
+        <img className="icons" src="../skills_logos/VSCode.svg"/>
         </>}
         
         usage = {<div></div>}
         
-        vid = {<source src="../.mp4" type="video/mp4" />}
+        vid = {<source src="../project_videos/Worldle.mp4" type="video/mp4" />}
         
         youtube = {<a target="_blank" href=""><img src="../misc_images/youtube-button.svg"/></a>}
 
@@ -23,4 +24,4 @@ export function World_le(){
         extra = {<div></div>}
         />
     )
-}
+} 

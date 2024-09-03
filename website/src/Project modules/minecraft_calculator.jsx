@@ -4,12 +4,12 @@ import "./template/template.css"
 
 export function Minecraft_calculator(){
     return(
-        <Page img_link = "" img_width = '' name = "" short = ""
+        <Page img_link = "" img_width = '' name = "Minecraft Calculator" short = "Logic gates and redstone creating a calculator within minecraft"
 
         descrip = {<div></div>} 
+        
         skills = {<>
-        <img className="icons" src="../skills_logos/"/>
-        <img className="icons" src="../skills_logos/"/>
+        <img className="icons" src="../skills_logos/CircuitDesign.svg"/>
         </>}
         
         usage = {<div></div>}
@@ -23,4 +23,4 @@ export function Minecraft_calculator(){
         extra = {<div></div>}
         />
     )
-}
+} 

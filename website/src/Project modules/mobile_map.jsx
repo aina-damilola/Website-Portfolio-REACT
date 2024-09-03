@@ -4,12 +4,14 @@ import "./template/template.css"
 
 export function Mobile_map(){
     return(
-        <Page img_link = "" img_width = '' name = "" short = ""
+        <Page img_link = "" img_width = '' name = "Mobile Map" short = "A map geared for tourism and optimal pathfinding"
 
         descrip = {<div></div>} 
+        
         skills = {<>
-        <img className="icons" src="../skills_logos/"/>
-        <img className="icons" src="../skills_logos/"/>
+        <img className="icons" src="../skills_logos/CPlusPlus.svg"/>
+        <img className="icons" src="../skills_logos/Git.svg"/>
+        <img className="icons" src="../skills_logos/VSCode.svg"/>
         </>}
         
         usage = {<div></div>}
@@ -23,4 +25,4 @@ export function Mobile_map(){
         extra = {<div></div>}
         />
     )
-}
+} 

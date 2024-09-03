@@ -22,7 +22,7 @@ export function Space_dog(){
             incorporates the ultrasonic sensor and photoresistors kicks in and allows it to follow said light
             source.</div>}
         
-        vid = {<source src="../vid.mp4" type="video/mp4" />}
+        vid = {<source src="../project_videos/Space_Dog.mp4" type="video/mp4" />}
         
         youtube = {<a href="https://youtu.be/fqpIuMYHS8A" target="_blank"><img src="../misc_images/youtube-button.svg"/></a>}
 

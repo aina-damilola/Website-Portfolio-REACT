@@ -4,17 +4,19 @@ import "./template/template.css"
 
 export function Desktop_OS(){
     return(
-        <Page img_link = "" img_width = '' name = "" short = ""
+        <Page img_link = "" img_width = '' name = "Operating System" short = "Desktop Operating System with file managing & text editorsystem"
 
         descrip = {<div></div>} 
+        
         skills = {<>
-        <img className="icons" src="../skills_logos/"/>
-        <img className="icons" src="../skills_logos/"/>
+        <img className="icons" src="../skills_logos/Assembly.svg"/>
+        <img className="icons" src="../skills_logos/C.svg"/>
+        <img className="icons" src="../skills_logos/VSCode.svg"/>
         </>}
         
         usage = {<div></div>}
         
-        vid = {<source src="../.mp4" type="video/mp4" />}
+        vid = {<source src="../project_videos/Desktop_OS.mp4" type="video/mp4" />}
         
         youtube = {<a target="_blank" href=""><img src="../misc_images/youtube-button.svg"/></a>}
 

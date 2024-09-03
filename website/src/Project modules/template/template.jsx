@@ -7,6 +7,7 @@ export function project_name(){
         <Page img_link = "" img_width = '' name = "" short = ""
 
         descrip = {<div></div>} 
+
         skills = {<>
         <img className="icons" src="../skills_logos/"/>
         <img className="icons" src="../skills_logos/"/>

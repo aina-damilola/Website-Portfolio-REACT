@@ -4,12 +4,12 @@ import "./template/template.css"
 
 export function Prototype_SHADOW(){
     return(
-        <Page img_link = "" img_width = '' name = "" short = ""
+        <Page img_link = "" img_width = '' name = "SHADOW" short = "A prototype car maximising fuel efficiency and traveled distance"
 
         descrip = {<div></div>} 
+        
         skills = {<>
-        <img className="icons" src="../skills_logos/"/>
-        <img className="icons" src="../skills_logos/"/>
+        <img className="icons" src="../skills_logos/SOLIDWORKS.svg"/>
         </>}
         
         usage = {<div></div>}
@@ -23,4 +23,4 @@ export function Prototype_SHADOW(){
         extra = {<div></div>}
         />
     )
-}
+} 

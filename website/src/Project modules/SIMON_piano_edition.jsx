@@ -4,12 +4,14 @@ import "./template/template.css"
 
 export function SIMON_piano_edition(){
     return(
-        <Page img_link = "" img_width = '' name = "" short = ""
+        <Page img_link = "" img_width = '' name = "SIMON piano" short = "A 'simon' game created solely through Verilog hardware interfacing"
 
         descrip = {<div></div>} 
+        
         skills = {<>
-        <img className="icons" src="../skills_logos/"/>
-        <img className="icons" src="../skills_logos/"/>
+        <img className="icons" src="../skills_logos/Git.svg"/>
+        <img className="icons" src="../skills_logos/VerilogHDL.svg"/>
+        <img className="icons" src="../skills_logos/VSCode.svg"/>
         </>}
         
         usage = {<div></div>}
@@ -23,4 +25,4 @@ export function SIMON_piano_edition(){
         extra = {<div></div>}
         />
     )
-}
+} 

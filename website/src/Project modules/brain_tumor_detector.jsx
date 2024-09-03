@@ -4,17 +4,18 @@ import "./template/template.css"
 
 export function Brain_tumor_detector(){
     return(
-        <Page img_link = "" img_width = '' name = "" short = ""
+        <Page img_link = "" img_width = '' name = "Brain Tumor Detector" short = "Deep Learning aiding brain tumour recognition"
 
         descrip = {<div></div>} 
+        
         skills = {<>
-        <img className="icons" src="../skills_logos/"/>
-        <img className="icons" src="../skills_logos/"/>
+        <img className="icons" src="../skills_logos/Python.svg"/>
+        <img className="icons" src="../skills_logos/Pytorch.svg"/>
         </>}
         
         usage = {<div></div>}
         
-        vid = {<source src="../.mp4" type="video/mp4" />}
+        vid = {<source src="../project_videos/Brain_Tumour.mp4" type="video/mp4" />}
         
         youtube = {<a target="_blank" href=""><img src="../misc_images/youtube-button.svg"/></a>}
 
@@ -23,4 +24,4 @@ export function Brain_tumor_detector(){
         extra = {<div></div>}
         />
     )
-}
+} 

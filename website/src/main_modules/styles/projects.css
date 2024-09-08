@@ -14,11 +14,10 @@
 }
 
 #preview #image{
-    width: 50%;
-    height: 50%;
+    width: 95%;
+    height: 75%;
     align-self: center;
     margin-left: auto;
-    margin-right: auto;
     overflow: hidden;
     color: #7e7e7e6c;
     border-radius: 5px;
@@ -29,7 +28,7 @@
 #catalogue{
     /* border: solid; */
     flex: 1;
-    margin-right: 250px;
+    margin-right: 150px;
     padding-left: 100px;
     /* border: solid; */
     display: flex;

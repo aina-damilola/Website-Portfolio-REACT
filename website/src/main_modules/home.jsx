@@ -30,10 +30,10 @@ export function Home(){
                     my project highlights
                 </h1>
                 <div id='projects_panel'>
-                    <Other_panel width = '23vw' height = '30vw' src = './project_images/Space_dog.jpg' bg = 'white' name = 'Space Dog' descrip = 'Robot Prototype for Space exploration' skills = 'Arduino | C++ | Circuit Design | SOLIDWORKS' dest = '/projects/Space-Dog'/>
+                    <Other_panel width = '23vw' height = '30vw' src = './project_images/Space_dog.jpg' bg = 'white' name = 'Space Dog' descrip = 'Robot Prototype for Space exploration' /*skills = 'Arduino | C++ | Circuit Design | SOLIDWORKS'*/ dest = '/projects/Space-Dog'/>
                     <div id='projects_panel_a'>
-                        <Other_panel width = '30vw' height = '17vw' src = './project_images/map_project_1.png' bg = 'white' name = 'Mapping Software' descrip = 'Mobile Map with live routing and pathfinding' skills = 'C++ | EZGL' dest = '/projects/mobile_map'/>
-                        <Other_panel width = '27vw' height = '20vw' src = './project_images/desktop_project.png' bg = 'white' name = 'Desktop Operating System' descrip = 'Operating Sytem with text editor and file manager' skills = 'C Language | NIOS II Assembly Language' dest = '/projects/desktop_OS'/>
+                        <Other_panel width = '30vw' height = '17vw' src = './project_images/map_project_1.png' bg = 'white' name = 'Mapping Software' descrip = 'Mobile Map with live routing and pathfinding' /*skills = 'C++ | EZGL'*/ dest = '/projects/mobile_map'/>
+                        <Other_panel width = '27vw' height = '20vw' src = './project_images/desktop_project.png' bg = 'white' name = 'Desktop Operating System' descrip = 'Operating Sytem with text editor and file manager' /*skills = 'C Language | NIOS II Assembly Language' */dest = '/projects/desktop_OS'/>
                     </div>
                 </div>
                 <Link className='button' to="/projects">SEE MORE</Link>
@@ -51,7 +51,7 @@ export function Home(){
                 <div id='other_panel_collection'>
                     <Other_panel id='panel_o_a' src='./project_images/minecraft_project.png'  
                     descrip = 'Simple Calculator created in Minecraft' 
-                    skills = 'Minecraft | Circuit Design' bg = '#f0f0f0' name = 'Minecraft Calculator' dest ='/projects/minecraft_calculator'
+                    /*skills = 'Minecraft | Circuit Design'*/ bg = '#f0f0f0' name = 'Minecraft Calculator' dest ='/projects/minecraft_calculator'
                     width = '380px' height = '310px'/>
                 </div>
                 

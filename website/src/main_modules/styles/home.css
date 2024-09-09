@@ -27,6 +27,9 @@
     position: relative;
     right: 55px;
     margin: 0;
+    padding: 10px 30px;
+    width: fit-content;
+    background-color: rgb(128, 177, 230);
 }
 
 #Hero #text h2{
@@ -38,6 +41,7 @@
     margin: 0;
     position: relative;
     right: 55px;
+    margin-top: 20px;
 }
 
 #bottom_text{

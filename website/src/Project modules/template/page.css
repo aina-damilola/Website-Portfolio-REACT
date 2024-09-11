@@ -8,15 +8,18 @@
 #con-a{
     display: flex;
     margin-top: 4vw;
+    /* border: solid; */
 }
 
 #con-a-a{
     margin-left: 100px;
     border-radius: 10vw;
+    /* border: solid; */
 }
 
 #con-a-b{
-    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #con-a-b h1{
@@ -25,7 +28,7 @@
     font-weight: 800;
     margin: 0px;
     position: relative;
-    right: 100px;
+    margin-left: 25px;
 }
 
 #con-a-b h4{
@@ -34,7 +37,7 @@
     line-height: 160%;
     font-size: 20px;
     margin: 0px;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 h2{

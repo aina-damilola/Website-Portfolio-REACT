@@ -14,7 +14,7 @@ export function About(){
                         I'm a Software Engineer with personal experience in Web development!
                     </h2>
                     <p>
-                    My name is Damilola Aina, a third-year Computer Engineering student at the University of Toronto with a minor in Artificial Intelligence. I am passionate about applying technology to solve real-world problems. As an active member of the UTSM team, I help design and develop energy-efficient vehicle prototypes for competitive testing, advancing sustainable transportation solutions.
+                    I'm Damilola Aina, a third-year Computer Engineering student at the University of Toronto with a minor in AI. I'm passionate about using technology to solve real-world problems and work with the UTSM team on designing energy-efficient vehicle prototypes.
                     </p>
                 </div>
             </div>
@@ -61,7 +61,7 @@ export function About(){
                         Software Development
                     </h2>
                     <p>
-                        I am proficient in Python, C, C++, JavaScript, and React, with expertise in Machine Learning (recently focusing on Deep Learning), Web Development with React, and systems programming, including low-level programming and hardware interfacing using C, Assembly (NIOS II), and C++.
+                    I am proficient in Python, C, C++, JavaScript, and React, with expertise in Machine Learning, Web Development, and low-level systems programming using C, Assembly, and C++.
                     </p>
                 </div>
                 
@@ -73,7 +73,7 @@ export function About(){
                         Electronics & Circuit Design
                     </h2>
                     <p>
-                        With half of my degree focused on Electrical Engineering, I have gained substantial expertise in the field. My experience includes scripting robots with Arduinos, designing circuits, and even recreating low-level computer machines in Minecraft.
+                    With a focus on Electrical Engineering, I’ve gained expertise in scripting robots with Arduinos, designing circuits, and recreating low-level computer machines in games.
                     </p>
                 </div>
 
@@ -85,7 +85,7 @@ export function About(){
                         Project Management
                     </h2>
                     <p>
-                        In group projects, building strong relationships with clients and team members is a top priority. I ensure success through regular meetings, internal deadlines, and progress tracking using tools like MS Projects, Slack, and Gantt charts.
+                    In group projects, I prioritize strong relationships with clients and team members by ensuring regular meetings, setting internal deadlines, and tracking progress with tools like MS Projects, Slack, and Gantt charts.
                     </p>
                 </div>
 
@@ -97,7 +97,7 @@ export function About(){
                         Mechanical Design
                     </h2>
                     <p>
-                        On my design team, I manage a substantial portion of SOLIDWORKS CAD tasks, from simple parts and holders to complex aerobody designs. I ensure precise translation of drawings and measurements into physical designs that meet all technical specifications.
+                    On my design team, I handle a significant portion of SOLIDWORKS CAD tasks, ranging from simple parts to complex aerobody designs, ensuring accurate translation of drawings into physical designs that meet technical specifications.
                     </p>
                 </div>
             </div>

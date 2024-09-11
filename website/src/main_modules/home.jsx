@@ -8,7 +8,7 @@ export function Home(){
     return(
         <>
             <div id="Hero">
-                 <img src="./misc_images/sea_oasis.jpg"/>
+                 <img src="./misc_images/sea_oasis.jpeg"/>
 
                 <div id='text'>
                     <h1>

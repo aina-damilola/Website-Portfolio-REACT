@@ -2,6 +2,8 @@ import './App.css'
 
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 
+import ScrollToTop from './Helper modules/scroll_to_top'
+
 import { Home } from './main_modules/home'
 import { About } from './main_modules/about'
 import { Projects } from './main_modules/projects'
@@ -20,6 +22,7 @@ function App(){
   return(
     <>
       <Router>
+        <ScrollToTop />
         <div id='header'>
           <Link id='icon' to="/">[d.a]</Link>
           <div id='links'>
@@ -66,7 +69,7 @@ function App(){
           </div>
           <div id='footer_b'>
             <p id='credits_a'>
-              Damilola Aina | Last Updated: <span style={{color:'rgb(50,50,50)'}}>Sept. 8th '24</span>
+              Damilola Aina | Last Updated: <span style={{color:'rgb(50,50,50)'}}>Sept. 10th '24</span>
             </p> 
             <p id='credits_b'>
               image courtesy of <a style={{textDecoration:'none'}}href='https://www.instagram.com/not_aralii/' target='_blank'>@not_aralii</a>

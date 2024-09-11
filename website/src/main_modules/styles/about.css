@@ -56,16 +56,20 @@
 }
 
 #about_section #descrip{
-    width: 45vw;
+    /* width: 45vw; */
+    /* border: solid; */
 }
 
 #about_section #descrip h2{
     margin-left: 7.5vw;
     margin-top: 1vw;
+    width: 37.5vw;
 }
 
 #about_section #descrip p{
     margin-left: 7.5vw;
+    /* border: solid; */
+    width: 45vw;
 }
 
 #about_section #mid-a{
@@ -90,9 +94,10 @@
     align-self: center;
     border-radius: 4vw;
     padding-left: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    row-gap: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    row-gap: 50px;
 }
 
 #about_section #grid-4box h3{
@@ -112,12 +117,16 @@
 #about_section #grid-4box p{
     text-align: center;
     line-height: 200%;
+    font-size: 17px;
+    /* border: solid; */
+    /* margin: 0px; */
 }
 
 #about_section #grid-4box .grid-square{
     /*TOP RIGHT BOTTOM LEFT*/
     margin: 0px;
     width: 33vw;
+    /* border: solid; */
 }
 
 #about_section #end-paragraph{

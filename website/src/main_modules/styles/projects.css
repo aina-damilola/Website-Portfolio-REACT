@@ -78,6 +78,9 @@
         /* border: solid; */
         width: 100%;
     }
+    #catalogue #scroll_box{
+        height: auto;
+    }
 }
 
 /* #catalogue #projects_header #projects_num{

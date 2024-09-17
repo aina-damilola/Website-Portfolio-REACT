@@ -5,7 +5,7 @@ export function About(){
     return(
         <div id="about_section">
             <h1>
-                About me.
+                About me. 
             </h1>
             <div id="hero">
                 <div className="image" id="potrait"style={{backgroundImage:'url(./misc_images/profile.jpg)'}}></div>

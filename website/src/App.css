@@ -17,6 +17,16 @@ body{
     /* border: solid; */
 }
 
+@media (max-width: 768px) {
+    body {
+      width: 100%;
+    }
+
+    /* #header{
+        width: calc(100% - 120px - 7% );
+    } */
+  }
+
 #links{
     margin-top: 30px;
 }

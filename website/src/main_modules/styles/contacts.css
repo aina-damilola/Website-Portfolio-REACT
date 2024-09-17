@@ -107,3 +107,16 @@
     margin-left: auto;
     transition: 0.25s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
+
+@media (max-width: 768px) {
+    .contacts_page_panels:hover svg {
+        width: 165px;
+        height: 165px;
+    }
+
+    .contacts_page_panels svg{
+        /* border: solid; */
+        width: 150px;
+        height: 150px;
+    }
+}

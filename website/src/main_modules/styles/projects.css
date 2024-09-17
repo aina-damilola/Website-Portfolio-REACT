@@ -6,6 +6,7 @@
     margin-top: 100px;
     min-height: 400px;
     /* border: solid; */
+    width: 100%;
 }
 
 #preview{
@@ -13,11 +14,7 @@
     display: flex;
 }
 
-@media (max-width: 1000px) {
-    #preview {
-      display: none;
-    }
-}
+
 
 #preview #image{
     width: 95%;
@@ -33,7 +30,7 @@
 
 #catalogue{
     /* border: solid; */
-    flex: 1;
+    width: 50%;
     margin-right: 150px;
     padding-left: 100px;
     /* border: solid; */
@@ -70,7 +67,17 @@
     /* border: solid; */
     overflow-y: scroll;
     height: 200px ;
-    flex: 1;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    #preview {
+      display: none;
+    }
+    #catalogue{
+        /* border: solid; */
+        width: 100%;
+    }
 }
 
 /* #catalogue #projects_header #projects_num{

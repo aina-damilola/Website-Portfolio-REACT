@@ -13,6 +13,12 @@
     display: flex;
 }
 
+@media (max-width: 1000px) {
+    #preview {
+      display: none;
+    }
+}
+
 #preview #image{
     width: 95%;
     height: 75%;

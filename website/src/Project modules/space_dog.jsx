@@ -4,7 +4,7 @@ import "./template/template.css"
 
 export function Space_dog(){
     return(
-        <Page img_link = "../project_images/Space_dog.jpg" img_width = '45vw' 
+        <Page img_link = "../project_images/Space_dog.jpg" img_width = '45vw' img_height = '33.75vw'
         name = "Space Dog"
         short = "Robot Prototype for Space exploration"
 

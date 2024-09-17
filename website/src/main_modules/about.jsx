@@ -1,7 +1,7 @@
 import "./styles/about.css"
 import { Marquee } from "../Helper modules/marquee"
 
-export function About(){
+export function About(){ 
     return(
         <div id="about_section">
             <h1>
@@ -18,7 +18,7 @@ export function About(){
                     </p>
                 </div>
             </div>
-            <div>
+            <div id="marquee-box">
                 
                 
                 

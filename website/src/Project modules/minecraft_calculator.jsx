@@ -4,7 +4,7 @@ import "./template/template.css"
 
 export function Minecraft_calculator(){
     return(
-        <Page img_link = "../project_images/minecraft_project.png" img_width = '45vw' name = "Minecraft Calculator" short = "Logic gates and redstone creating a calculator"
+        <Page img_link = "../project_images/minecraft_project.png" img_width = '45vw' img_height = '33.75vw' name = "Minecraft Calculator" short = "Logic gates and redstone creating a calculator"
 
         descrip = {<div>The goal of this project was to create a functional calculator in Minecraft using logic gates and redstone circuits. By leveraging the basic principles of binary logic and circuitry, the calculator is able to perform simple arithmetic operations such as addition and subtraction. This project showcases how fundamental computing concepts can be visualized within a game environment.
         <br/><br/>
@@ -20,11 +20,11 @@ export function Minecraft_calculator(){
         <br/><br/>    
         If you want to reset your input or clear the current result, there is a clear button that resets all selections and outputs, allowing you to start fresh. The memory capability ensures that if you accidentally power off the system, all your previous inputs will remain intact until the clear button is pressed. The calculator's design is user-friendly, with clear visual feedback using redstone lamps to display the current input status and results, making it easy to track what step you’re on in the calculation process.</div>}
         
-        vid = {<source src="../.mp4" type="video/mp4" />}
+        vid = {<source src="../project_videos/Minecraft_Calculator.mp4" type="video/mp4" />}
         
-        youtube = {<a target="_blank" href=""><img src="../misc_images/youtube-button.svg"/></a>}
+        youtube = {<a target="_blank" href="https://youtu.be/Z7ViG5hnJaY"><img src="../misc_images/youtube-button.svg"/></a>}
 
-        github = {<a target="_blank" href=""><img src="../misc_images/github-button.svg"/></a>}
+        github = {<a target="_blank" href="https://github.com/aina-damilola/Minecraft-Calculator"><img src="../misc_images/github-button.svg"/></a>}
         
         extra = {<div>Each input is converted into binary through a series of redstone circuits, which then feed into the logic gates responsible for performing the actual calculations. The results are displayed using a simple redstone-powered visual interface, making the operation of the calculator easy to follow and understand.
         </div>}

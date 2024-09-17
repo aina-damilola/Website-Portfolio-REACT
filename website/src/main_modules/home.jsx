@@ -30,10 +30,10 @@ export function Home(){
                     my project highlights
                 </h1>
                 <div id='projects_panel'>
-                    <Other_panel width = '23vw' height = '30vw' src = './project_images/Space_dog.jpg' bg = 'white' name = 'Space Dog' descrip = 'Robot Prototype for Space exploration' /*skills = 'Arduino | C++ | Circuit Design | SOLIDWORKS'*/ dest = '/projects/Space-Dog'/>
+                    <Other_panel minwidth = '200px' minheight = '261px' width = '23vw' height = '30vw' src = './project_images/Space_dog.jpg' bg = 'white' name = 'Space Dog' descrip = 'Robot Prototype for Space exploration' /*skills = 'Arduino | C++ | Circuit Design | SOLIDWORKS'*/ dest = '/projects/Space-Dog'/>
                     <div id='projects_panel_a'>
-                        <Other_panel width = '30vw' height = '17vw' src = './project_images/map_project_1.png' bg = 'white' name = 'Mapping Software' descrip = 'Mobile Map with live routing and pathfinding' /*skills = 'C++ | EZGL'*/ dest = '/projects/mobile_map'/>
-                        <Other_panel width = '27vw' height = '20vw' src = './project_images/desktop_project.png' bg = 'white' name = 'Desktop Operating System' descrip = 'Operating Sytem with text editor and file manager' /*skills = 'C Language | NIOS II Assembly Language'*/ dest = '/projects/desktop_OS'/>
+                        <Other_panel minwidth = '261px' minheight = '148px' width = '30vw' height = '17vw'src = './project_images/map_project_1.png' bg = 'white' name = 'Mapping Software' descrip = 'Mobile Map with live routing and pathfinding' /*skills = 'C++ | EZGL'*/ dest = '/projects/mobile_map'/>
+                        <Other_panel minwidth = '235px' minheight = '174px' width = '27vw' height = '20vw'src = './project_images/desktop_project.png' bg = 'white' name = 'Desktop Operating System' descrip = 'Operating Sytem with text editor and file manager' /*skills = 'C Language | NIOS II Assembly Language'*/ dest = '/projects/desktop_OS'/>
                     </div>
                 </div>
                 <Link className='button' to="/projects">SEE MORE</Link>

@@ -1,10 +1,10 @@
 import "./page.css"
 
-export function Page(props){
+export function Page(props){ 
     return(
         <div id="con">
             <div id="con-a">
-                <img id="con-a-a" style={{width:props.img_width}}
+                <img id="con-a-a" style={{minWidth:'400px',width:props.img_width, minHeight:'300px',height:props.img_height}}
                 src = {props.img_link}/>
                 <div id="con-a-b">
                     <h1>{props.name}</h1>
@@ -26,13 +26,12 @@ export function Page(props){
 
             <div id="con-d">
                 <div id="con-d-a">
-                    <h3>Demo</h3>
                     <div id="con-d-a-a">
                         {props.github}
                         {props.youtube}
                     </div>
                 </div>
-                <video  width='650px' controls='controls'>
+                <video   controls='controls'>
                     {props.vid}
                 </video>
             </div>

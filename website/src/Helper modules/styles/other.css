@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
 #other_panel{
-    margin: 30px;
+    margin: 2.5%;
     background-color: transparent;
     /* box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.25); */
     transition: 0.25s;
@@ -61,6 +61,8 @@
     margin: 0px;
 }
 
+
+
 #other_panel_back h2{
     font-family: "Wittgenstein", serif;
     font-weight: 800;
@@ -74,6 +76,35 @@
     line-height: 150%;
     
 }
+
+@media (max-width: 1500px) {
+    #other_panel_back h1 {
+      font-size: 100%;
+    }
+
+    #other_panel_back h2 {
+        font-size: 150%;
+    }
+}
+@media (max-width: 1150px) {
+    #other_panel_back h1 {
+      font-size: 75%;
+    }
+
+    #other_panel_back h2 {
+        font-size: 100%;
+    }
+}
+@media (max-width: 900px) {
+    #other_panel_back h1 {
+      font-size: 100%;
+    }
+
+    #other_panel_back h2 {
+        display: none;
+    }
+}
+
 
 #other_panel_back p{
     font-size: 15px;
@@ -99,11 +130,17 @@
     width: fit-content;
     margin-top: auto;
     justify-self: flex-end;
+    visibility: hidden;
 }
 
 #other_panel_back #hyperlink:hover{
     cursor: pointer;
     color: rgb(114, 102, 31);
+}
+
+
+#other_panel_back:hover #hyperlink{
+    visibility:visible;
 }
 
 /* background-color: #ffffff; White background for the panel */

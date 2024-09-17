@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
 #Hero{
-    margin-top: 5px;
+    margin-top: 0.5%;
     display: flex;
 }
 
 #Hero img{
-    width: 50vw;
-    height: 33vw;
+    width: 50%;
+    height: 33%;
     background-color: rgb(123, 123, 168);
 }
 
 #Hero #text{
-    width: 50vw;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,12 +22,12 @@
     color: rgb(37, 37, 37);
     font-family: "Wittgenstein", serif;
     font-weight: 400;
-    letter-spacing: 5px;
-    font-size: 60px;
+    letter-spacing: 0.5vw;
+    font-size: 400%;
     position: relative;
-    right: 55px;
+    right: 5%;
     margin: 0;
-    padding: 10px 30px;
+    padding: 1.5% 3%;
     width: fit-content;
     background-color: rgb(128, 177, 230);
 }
@@ -35,13 +35,13 @@
 #Hero #text h2{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 100;
-    letter-spacing: 2px;
-    font-size: 15px;
+    letter-spacing: 0.2vw;
+    font-size: 100%;
     align-self: center;
     margin: 0;
     position: relative;
-    right: 55px;
-    margin-top: 20px;
+    right: 5%;
+    margin-top: 2.5%;
 }
 
 #bottom_text{

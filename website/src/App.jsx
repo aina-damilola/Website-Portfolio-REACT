@@ -62,14 +62,14 @@ function App(){
             </div>
             
             <div id='hyperlinks'>
-              <a href='https://www.linkedin.com/in/aina-damilola' target='_blank'><img src='./footer_icons/linkedin-161-svgrepo-com.svg'/></a>
-              <a href='https://github.com/aina-damilola' target='_blank'><img src='./footer_icons/github-142-svgrepo-com.svg'/></a>
-              <a href='https://youtube.com/@aina-damilola?si=ljHSZcj9Ie8jLJd_' target='_blank'><img src='./footer_icons/youtube-168-svgrepo-com.svg'/></a>
+              <a href='https://www.linkedin.com/in/aina-damilola' target='_blank'><img src='../footer_icons/linkedin-161-svgrepo-com.svg'/></a>
+              <a href='https://github.com/aina-damilola' target='_blank'><img src='../footer_icons/github-142-svgrepo-com.svg'/></a>
+              <a href='https://youtube.com/@aina-damilola?si=ljHSZcj9Ie8jLJd_' target='_blank'><img src='../footer_icons/youtube-168-svgrepo-com.svg'/></a>
             </div>
           </div>
           <div id='footer_b'>
             <p id='credits_a'>
-              Damilola Aina | Last Updated: <span style={{color:'rgb(50,50,50)'}}>Sept. 10th '24</span>
+              Damilola Aina | Last Updated: <span style={{color:'rgb(50,50,50)'}}>Sept. 15th '24</span>
             </p> 
             <p id='credits_b'>
               image courtesy of <a style={{textDecoration:'none'}}href='https://www.instagram.com/not_aralii/' target='_blank'>@not_aralii</a>

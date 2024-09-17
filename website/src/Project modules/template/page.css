@@ -3,17 +3,20 @@
 #con{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #con-a{
     display: flex;
-    margin-top: 4vw;
-    /* border: solid; */
+    margin-top: 4%;
+    width: 100%;
 }
 
 #con-a-a{
-    margin-left: 100px;
+    margin-left: 10%;
     border-radius: 10vw;
+    margin-top: auto;
+    margin-bottom: auto;
     /* border: solid; */
 }
 
@@ -31,6 +34,8 @@
     margin-left: 25px;
 }
 
+
+
 #con-a-b h4{
     font-family: "Wittgenstein", serif;
     font-weight: 600;
@@ -46,14 +51,16 @@ h2{
     font-weight: 800;
     font-family: "Wittgenstein", serif;
     margin: 0px;
-    margin-top: 4vw;
-    margin-bottom: 2vw;
+    margin-top: 4%;
+    margin-bottom: 2%;
     text-align: center;
 }
 
+
+
 #con-b{
     display: flex;
-    width: 50vw;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
@@ -64,7 +71,22 @@ h2{
     font-weight: 600;
     line-height: 200%;
     font-size: 20px;
-    width: 50vw;
+    width: 100%;
+    text-align: justify;
+}
+
+@media (max-width: 1500px) {
+    #con-a-b h1 {
+        font-size: 400%;
+    }
+
+    #con-a-b h4{
+        font-size: 150%;
+    }
+
+    h2{
+        font-size: 300%;
+    }
 }
 
 #con-b-b{
@@ -81,9 +103,10 @@ h2{
     font-weight: 600;
     line-height: 200%;
     font-size: 20px;
-    width: 50vw;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 }
 
 h3{
@@ -98,13 +121,39 @@ h3{
 #con-d{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #con-d-a{
     align-content: center;
 }
 
+#con-d-a-a{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+#con-d-a-a a{
+    color: black;
+    width: 85px;
+    height: 60px;
+    margin: 40px;
+}
+
+#con-d-a-a a img{
+    width: 75px;
+    transition: 0.25s;
+}
+
+#con-d-a-a a img:hover{
+    width: 85px;
+}
+
 video{
     justify-self: center;
     align-self: center;
+    min-width: 500px;
+    width: 40vw;
 }

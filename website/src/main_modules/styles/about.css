@@ -81,8 +81,9 @@
 #about_section #descrip p{
     margin-left: 7.5vw;
     /* border: solid; */
-    width: 45vw;
-
+    width: 30vw;
+    margin-top: 3vw;
+    text-align: justify;
 }
 
 @media (max-width: 768px) {

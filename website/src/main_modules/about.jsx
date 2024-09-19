@@ -14,7 +14,7 @@ export function About(){
                         I'm a Software Engineer with personal experience in Web development!
                     </h2>
                     <p>
-                    I'm Damilola Aina, a third-year Computer Engineering student at the University of Toronto with a minor in AI. I'm passionate about using technology to solve real-world problems and work with the UTSM team on designing energy-efficient vehicle prototypes.
+                        I'm Damilola Aina, a third-year Computer Engineering student at the University of Toronto with a minor in AI. I'm passionate about using technology to solve real-world problems and work with the UTSM team on designing energy-efficient vehicle prototypes.
                     </p>
                 </div>
             </div>
